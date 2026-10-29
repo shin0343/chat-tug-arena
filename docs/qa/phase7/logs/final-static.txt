@@ -1,0 +1,10 @@
+
+> chat-tug-arena@0.1.0 lint
+> eslint . --max-warnings=0
+
+
+> chat-tug-arena@0.1.0 typecheck
+> next typegen ./apps/web && tsc -p packages/contracts --noEmit && tsc -p apps/realtime --noEmit && tsc -p apps/web --noEmit && tsc -p tsconfig.tools.json --noEmit
+
+Generating route types...
+✓ Types generated successfully

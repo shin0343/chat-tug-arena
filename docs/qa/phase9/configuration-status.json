@@ -1,0 +1,15 @@
+{
+  "capturedAt": "2026-10-28T15:33:20.878Z",
+  "clientIdPresent": true,
+  "clientSecretPresent": true,
+  "encryptionKeyValid": true,
+  "origin": "http://localhost:3000",
+  "redirect": "http://localhost:3000/api/auth/twitch/callback",
+  "backendConfigurationApplied": true,
+  "localOAuthStartStatus": 303,
+  "oauthParametersVerified": true,
+  "secretAbsentFromAuthorizationUrl": true,
+  "broadcasterAuthorizationVerified": false,
+  "realTwitchChatVerified": false,
+  "scope": "Local start/redirect validated without following it or recording credential/state/cookie values; broadcaster consent is still required"
+}

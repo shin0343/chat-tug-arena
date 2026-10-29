@@ -1,0 +1,15 @@
+{
+  "localArtifactValidation": "PASS",
+  "submissionReadiness": "BLOCKED",
+  "links": 265,
+  "timeline": {
+    "segments": 8,
+    "plannedDurationSeconds": 167,
+    "actualExportMeasured": false,
+    "captionCues": 8,
+    "narrationSegments": 8,
+    "narrationWords": 335,
+    "spokenTimingMeasured": false
+  },
+  "sourceFiles": 136
+}

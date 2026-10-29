@@ -1,0 +1,68 @@
+{
+  "phase": 5,
+  "verifiedAt": "2026-10-28T03:16:40.729Z",
+  "releaseCheck": {
+    "command": "npm run check",
+    "passed": true,
+    "lint": true,
+    "typecheck": true,
+    "vitest": {
+      "files": 11,
+      "passed": 137
+    },
+    "contrastPairs": 16,
+    "productionBuild": true
+  },
+  "browser": {
+    "command": "PLAYWRIGHT_PRODUCTION=1 npm run test:e2e",
+    "engine": "Chromium",
+    "total": 43,
+    "expected": 43,
+    "unexpected": 0,
+    "flaky": 0,
+    "skipped": 0,
+    "ok": true,
+    "durationMs": 92190.697,
+    "startedAt": "2026-10-28T03:08:37.944Z"
+  },
+  "artifacts": {
+    "screenshots": 68,
+    "directScreenshots": 29,
+    "recordings": [
+      {
+        "name": "streamer-journey",
+        "duration": "10.720000",
+        "size": "824451",
+        "video": {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 890
+        }
+      },
+      {
+        "name": "consequence-overlay",
+        "duration": "11.440000",
+        "size": "393044",
+        "video": {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 720
+        }
+      }
+    ]
+  },
+  "documentation": {
+    "localLinksChecked": 48,
+    "missingLinks": 0
+  },
+  "cleanup": {
+    "listeners3000and3001Closed": true
+  },
+  "limits": {
+    "realTwitch": false,
+    "nativeOBS": false,
+    "automaticGameControl": false,
+    "durableHistory": false,
+    "newFrameRateClaim": false
+  }
+}

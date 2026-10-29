@@ -1,0 +1,56 @@
+{
+  "capturedAt": "2026-10-28T20:17:41.746Z",
+  "scope": "Actual local release source commit and inspected committed history; no remote/push/judge access",
+  "gitRepositoryPresent": true,
+  "branch": "main",
+  "sourceCommit": "80ff3dc4553d42452adfca6744abfe7cf7b6a039",
+  "sourceCommitShort": "80ff3dc",
+  "remote": null,
+  "committedSourceVerified": true,
+  "judgeAccessVerified": false,
+  "stagedFiles": 718,
+  "stagedBytes": 107665168,
+  "forbiddenPaths": [],
+  "exactCredentialMatches": [],
+  "history": {
+    "checked": true,
+    "commits": 1,
+    "blobs": 665,
+    "exactCredentialMatches": []
+  },
+  "privateEnvMode": "600",
+  "privateEvidenceMode": "700",
+  "cleanSourceVerification": "PASS",
+  "requiredPaths": [
+    {
+      "path": ".env.example",
+      "committed": true
+    },
+    {
+      "path": "package-lock.json",
+      "committed": true
+    },
+    {
+      "path": "README.md",
+      "committed": true
+    },
+    {
+      "path": "apps/realtime/src/server.ts",
+      "committed": true
+    },
+    {
+      "path": "apps/web/public/game/fieldday-symbols.svg",
+      "committed": true
+    },
+    {
+      "path": "apps/web/public/licenses/dm-sans-OFL.txt",
+      "committed": true
+    },
+    {
+      "path": "apps/web/public/licenses/barlow-condensed-OFL.txt",
+      "committed": true
+    }
+  ],
+  "historicalRepositoryState": "No original Git metadata/history existed before Phase9v2; this current local snapshot is not evidence of an earlier creation date",
+  "externalWrites": "No Git remote creation, push, visibility change, upload or submission"
+}

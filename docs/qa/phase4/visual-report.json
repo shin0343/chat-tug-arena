@@ -1,0 +1,765 @@
+{
+  "environment": {
+    "node": "v22.23.1",
+    "browser": "156.0.8078.4",
+    "nativeObsTested": false,
+    "realTwitchTested": false
+  },
+  "shots": [
+    {
+      "name": "idle-1920",
+      "source": "actual server simulation through public SSE",
+      "state": "IDLE",
+      "position": 0,
+      "remainingMs": 45000,
+      "uniqueViewers": 0,
+      "eventSequence": 0,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scene": {
+        "x": 96,
+        "y": 513.703125,
+        "width": 1728,
+        "height": 512.546875
+      },
+      "aspect": 1.7777777777777777,
+      "scrollWidth": 1920,
+      "poses": [
+        "idle",
+        "idle",
+        "idle",
+        "idle"
+      ],
+      "renderedX": 0,
+      "roster": 4
+    },
+    {
+      "name": "countdown-1920",
+      "source": "actual server simulation through public SSE",
+      "state": "COUNTDOWN",
+      "position": 0,
+      "remainingMs": 45000,
+      "uniqueViewers": 0,
+      "eventSequence": 1,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scene": {
+        "x": 96,
+        "y": 513.703125,
+        "width": 1728,
+        "height": 512.546875
+      },
+      "aspect": 1.7777777777777777,
+      "scrollWidth": 1920,
+      "poses": [
+        "preparing",
+        "preparing",
+        "preparing",
+        "preparing"
+      ],
+      "renderedX": 0,
+      "roster": 4
+    },
+    {
+      "name": "balanced-1920",
+      "source": "actual server simulation through public SSE",
+      "state": "ACTIVE",
+      "position": -0.0015387110509357804,
+      "remainingMs": 44700,
+      "uniqueViewers": 6,
+      "eventSequence": 5,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scene": {
+        "x": 96,
+        "y": 513.703125,
+        "width": 1728,
+        "height": 512.546875
+      },
+      "aspect": 1.7777777777777777,
+      "scrollWidth": 1920,
+      "poses": [
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo"
+      ],
+      "renderedX": -0.001148,
+      "roster": 6
+    },
+    {
+      "name": "combo-1920",
+      "source": "actual server simulation through public SSE",
+      "state": "ACTIVE",
+      "position": -0.0016623438856536413,
+      "remainingMs": 44660,
+      "uniqueViewers": 6,
+      "eventSequence": 5,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scene": {
+        "x": 96,
+        "y": 513.703125,
+        "width": 1728,
+        "height": 512.546875
+      },
+      "aspect": 1.7777777777777777,
+      "scrollWidth": 1920,
+      "poses": [
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo"
+      ],
+      "renderedX": -0.001347,
+      "roster": 6
+    },
+    {
+      "name": "coral-lead-1920",
+      "source": "actual server simulation through public SSE",
+      "state": "ACTIVE",
+      "position": -0.13727629590977106,
+      "remainingMs": 43860,
+      "uniqueViewers": 16,
+      "eventSequence": 7,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scene": {
+        "x": 96,
+        "y": 512.453125,
+        "width": 1728,
+        "height": 513.796875
+      },
+      "aspect": 1.7777777777777777,
+      "scrollWidth": 1920,
+      "poses": [
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo"
+      ],
+      "renderedX": -0.094744,
+      "roster": 8
+    },
+    {
+      "name": "momentum-reversal-1920",
+      "source": "actual server simulation through public SSE",
+      "state": "ACTIVE",
+      "position": -0.14342969900602862,
+      "remainingMs": 43560,
+      "uniqueViewers": 40,
+      "eventSequence": 9,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scene": {
+        "x": 96,
+        "y": 512.453125,
+        "width": 1728,
+        "height": 513.796875
+      },
+      "aspect": 1.7777777777777777,
+      "scrollWidth": 1920,
+      "poses": [
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo"
+      ],
+      "renderedX": -0.167267,
+      "roster": 10
+    },
+    {
+      "name": "mint-lead-1920",
+      "source": "actual server simulation through public SSE",
+      "state": "ACTIVE",
+      "position": 0.16292926901053278,
+      "remainingMs": 43060,
+      "uniqueViewers": 40,
+      "eventSequence": 10,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scene": {
+        "x": 96,
+        "y": 512.453125,
+        "width": 1728,
+        "height": 513.796875
+      },
+      "aspect": 1.7777777777777777,
+      "scrollWidth": 1920,
+      "poses": [
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo"
+      ],
+      "renderedX": 0.087609,
+      "roster": 10
+    },
+    {
+      "name": "scaled-1280",
+      "source": "actual server simulation through public SSE",
+      "state": "PAUSED",
+      "position": 0.1769292690105328,
+      "remainingMs": 43040,
+      "uniqueViewers": 40,
+      "eventSequence": 10,
+      "viewport": [
+        1280,
+        720
+      ],
+      "scene": {
+        "x": 64,
+        "y": 342.5,
+        "width": 1152,
+        "height": 341.671875
+      },
+      "aspect": 1.7777777777777777,
+      "scrollWidth": 1280,
+      "poses": [
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo"
+      ],
+      "renderedX": 0.176929,
+      "roster": 10
+    },
+    {
+      "name": "scaled-960",
+      "source": "actual server simulation through public SSE",
+      "state": "PAUSED",
+      "position": 0.1769292690105328,
+      "remainingMs": 43040,
+      "uniqueViewers": 40,
+      "eventSequence": 10,
+      "viewport": [
+        960,
+        540
+      ],
+      "scene": {
+        "x": 48,
+        "y": 256.046875,
+        "width": 864,
+        "height": 257.078125
+      },
+      "aspect": 1.7777777777777777,
+      "scrollWidth": 960,
+      "poses": [
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo"
+      ],
+      "renderedX": 0.176929,
+      "roster": 10
+    },
+    {
+      "name": "scaled-640",
+      "source": "actual server simulation through public SSE",
+      "state": "PAUSED",
+      "position": 0.1769292690105328,
+      "remainingMs": 43040,
+      "uniqueViewers": 40,
+      "eventSequence": 10,
+      "viewport": [
+        640,
+        360
+      ],
+      "scene": {
+        "x": 32,
+        "y": 163.015625,
+        "width": 576,
+        "height": 179.078125
+      },
+      "aspect": 1.7777777777777777,
+      "scrollWidth": 640,
+      "poses": [
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo"
+      ],
+      "renderedX": 0.176929,
+      "roster": 10
+    },
+    {
+      "name": "scaled-390",
+      "source": "actual server simulation through public SSE",
+      "state": "PAUSED",
+      "position": 0.1769292690105328,
+      "remainingMs": 43040,
+      "uniqueViewers": 40,
+      "eventSequence": 10,
+      "viewport": [
+        390,
+        844
+      ],
+      "scene": {
+        "x": 19.5,
+        "y": 402.828125,
+        "width": 351,
+        "height": 117.953125
+      },
+      "aspect": 1.7777777777777777,
+      "scrollWidth": 390,
+      "poses": [
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo"
+      ],
+      "renderedX": 0.176929,
+      "roster": 10
+    },
+    {
+      "name": "scaled-1920",
+      "source": "actual server simulation through public SSE",
+      "state": "PAUSED",
+      "position": 0.1769292690105328,
+      "remainingMs": 43040,
+      "uniqueViewers": 40,
+      "eventSequence": 10,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scene": {
+        "x": 96,
+        "y": 513.703125,
+        "width": 1728,
+        "height": 512.546875
+      },
+      "aspect": 1.7777777777777777,
+      "scrollWidth": 1920,
+      "poses": [
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo"
+      ],
+      "renderedX": 0.176929,
+      "roster": 10
+    },
+    {
+      "name": "connection-interruption-1920",
+      "source": "actual server simulation through public SSE",
+      "state": "PAUSED",
+      "position": 0.1769292690105328,
+      "remainingMs": 43040,
+      "uniqueViewers": 40,
+      "eventSequence": 10,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scene": {
+        "x": 96,
+        "y": 513.703125,
+        "width": 1728,
+        "height": 512.546875
+      },
+      "aspect": 1.7777777777777777,
+      "scrollWidth": 1920,
+      "poses": [
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo"
+      ],
+      "renderedX": 0.176929,
+      "roster": 10
+    },
+    {
+      "name": "victory-1920",
+      "source": "actual server simulation through public SSE",
+      "state": "FINISHED",
+      "position": -1,
+      "remainingMs": 41580,
+      "uniqueViewers": 10,
+      "winner": "coral",
+      "eventSequence": 6,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scene": {
+        "x": 96,
+        "y": 513.703125,
+        "width": 1728,
+        "height": 512.546875
+      },
+      "aspect": 1.7777777777777777,
+      "scrollWidth": 1920,
+      "poses": [
+        "victory",
+        "victory",
+        "victory",
+        "victory",
+        "victory",
+        "defeat",
+        "defeat"
+      ],
+      "renderedX": -1,
+      "roster": 7
+    },
+    {
+      "name": "result-1920",
+      "source": "actual server simulation through public SSE",
+      "state": "FINISHED",
+      "position": -1,
+      "remainingMs": 41580,
+      "uniqueViewers": 10,
+      "winner": "coral",
+      "eventSequence": 6,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scene": {
+        "x": 96,
+        "y": 513.703125,
+        "width": 1728,
+        "height": 512.546875
+      },
+      "aspect": 1.7777777777777777,
+      "scrollWidth": 1920,
+      "poses": [
+        "victory",
+        "victory",
+        "victory",
+        "victory",
+        "victory",
+        "defeat",
+        "defeat"
+      ],
+      "renderedX": -1,
+      "roster": 7
+    },
+    {
+      "name": "late-deficit-1920",
+      "source": "actual server simulation through public SSE",
+      "state": "ACTIVE",
+      "position": -0.5031099922858162,
+      "remainingMs": 21260,
+      "uniqueViewers": 2,
+      "eventSequence": 4,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scene": {
+        "x": 96,
+        "y": 512.453125,
+        "width": 1728,
+        "height": 513.796875
+      },
+      "aspect": 1.7777777777777777,
+      "scrollWidth": 1920,
+      "poses": [
+        "pulling",
+        "pulling",
+        "idle",
+        "idle"
+      ],
+      "renderedX": -0.500757,
+      "roster": 4
+    },
+    {
+      "name": "final-countdown-1920",
+      "source": "actual server simulation through public SSE",
+      "state": "ACTIVE",
+      "position": 0,
+      "remainingMs": 4960,
+      "uniqueViewers": 0,
+      "eventSequence": 4,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scene": {
+        "x": 96,
+        "y": 513.703125,
+        "width": 1728,
+        "height": 512.546875
+      },
+      "aspect": 1.7777777777777777,
+      "scrollWidth": 1920,
+      "poses": [
+        "idle",
+        "idle",
+        "idle",
+        "idle"
+      ],
+      "renderedX": 0,
+      "roster": 4
+    },
+    {
+      "name": "no-participation-result-1920",
+      "source": "actual server simulation through public SSE",
+      "state": "FINISHED",
+      "position": 0,
+      "remainingMs": 0,
+      "uniqueViewers": 0,
+      "winner": null,
+      "eventSequence": 9,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scene": {
+        "x": 96,
+        "y": 513.703125,
+        "width": 1728,
+        "height": 512.546875
+      },
+      "aspect": 1.7777777777777777,
+      "scrollWidth": 1920,
+      "poses": [
+        "idle",
+        "idle",
+        "idle",
+        "idle"
+      ],
+      "renderedX": 0,
+      "roster": 4
+    },
+    {
+      "name": "comeback-1920",
+      "source": "actual server simulation through public SSE",
+      "state": "ACTIVE",
+      "position": 0.06715333731419285,
+      "remainingMs": 11660,
+      "uniqueViewers": 8,
+      "eventSequence": 8,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scene": {
+        "x": 96,
+        "y": 512.453125,
+        "width": 1728,
+        "height": 513.796875
+      },
+      "aspect": 1.7777777777777777,
+      "scrollWidth": 1920,
+      "poses": [
+        "losing_balance",
+        "losing_balance",
+        "pulling",
+        "pulling",
+        "pulling",
+        "pulling"
+      ],
+      "renderedX": 0.045632,
+      "roster": 6
+    },
+    {
+      "name": "mint-result-1920",
+      "source": "actual server simulation through public SSE",
+      "state": "FINISHED",
+      "position": 1,
+      "remainingMs": 3300,
+      "uniqueViewers": 8,
+      "winner": "mint",
+      "eventSequence": 13,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scene": {
+        "x": 96,
+        "y": 513.703125,
+        "width": 1728,
+        "height": 512.546875
+      },
+      "aspect": 1.7777777777777777,
+      "scrollWidth": 1920,
+      "poses": [
+        "defeat",
+        "defeat",
+        "victory",
+        "victory",
+        "victory",
+        "victory"
+      ],
+      "renderedX": 1,
+      "roster": 6
+    },
+    {
+      "name": "maximum-crowd-1920",
+      "source": "actual server simulation through public SSE",
+      "state": "ACTIVE",
+      "position": 0,
+      "remainingMs": 81940,
+      "uniqueViewers": 20,
+      "eventSequence": 9,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scene": {
+        "x": 96,
+        "y": 513.703125,
+        "width": 1728,
+        "height": 512.546875
+      },
+      "aspect": 1.7777777777777777,
+      "scrollWidth": 1920,
+      "poses": [
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo"
+      ],
+      "renderedX": 0,
+      "roster": 10
+    },
+    {
+      "name": "reduced-motion-1920",
+      "source": "actual server simulation through public SSE",
+      "state": "ACTIVE",
+      "position": 0,
+      "remainingMs": 81580,
+      "uniqueViewers": 20,
+      "eventSequence": 9,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scene": {
+        "x": 96,
+        "y": 513.703125,
+        "width": 1728,
+        "height": 512.546875
+      },
+      "aspect": 1.7777777777777777,
+      "scrollWidth": 1920,
+      "poses": [
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo",
+        "combo"
+      ],
+      "renderedX": 0,
+      "roster": 10
+    }
+  ],
+  "performance": [
+    {
+      "source": "Chromium headless, 1920x1080, ten characters, actual SSE, video recording disabled",
+      "durationMs": 8007.5,
+      "frames": 480,
+      "meanIntervalMs": 16.66583333333333,
+      "p95IntervalMs": 16.800000000000182,
+      "maximumIntervalMs": 16.80000000000109,
+      "longTasks": [],
+      "domNodes": 350,
+      "characters": 10,
+      "particles": 0,
+      "rendererAverageMs": "0.148",
+      "rendererMaximumMs": "0.700",
+      "resources": [
+        {
+          "name": "/game/fieldday-symbols.svg",
+          "bytes": 1123
+        },
+        {
+          "name": "/game/fieldday-symbols.svg",
+          "bytes": 300
+        },
+        {
+          "name": "/game/fieldday-symbols.svg",
+          "bytes": 300
+        }
+      ],
+      "observedRafHz": 60.00300015000751,
+      "taskDurationMs": 589.9369999999999,
+      "scriptDurationMs": 121.061,
+      "layoutDurationMs": 40.489
+    }
+  ],
+  "browserErrors": []
+}

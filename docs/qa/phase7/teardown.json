@@ -1,0 +1,15 @@
+{
+  "capturedAt": "2026-10-28T10:15:01.564Z",
+  "checks": [
+    {
+      "port": 3000,
+      "responding": false,
+      "code": "ECONNREFUSED"
+    },
+    {
+      "port": 3001,
+      "responding": false,
+      "code": "ECONNREFUSED"
+    }
+  ]
+}

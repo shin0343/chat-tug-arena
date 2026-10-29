@@ -1,0 +1,19 @@
+{
+  "capturedAt": "2026-10-28T20:17:06.540Z",
+  "scope": "Actual staged bytes and rebuilt public static files; known local app/token/CSRF secrets compared in memory, no values emitted",
+  "stagedFiles": 718,
+  "totalBytes": 107665168,
+  "forbiddenPaths": [],
+  "exactCredentialMatches": [],
+  "publicStaticFiles": 45,
+  "publicStaticCredentialMatches": [],
+  "history": {
+    "checked": true,
+    "commits": 1,
+    "blobs": 665,
+    "exactCredentialMatches": []
+  },
+  "remoteConfigured": false,
+  "privateEnvMode": "600",
+  "privateEvidenceMode": "700"
+}

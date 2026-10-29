@@ -1,0 +1,41 @@
+{
+  "name": "chat-tug-arena",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=22.9.0"
+  },
+  "scripts": {
+    "dev": "npm run build -w @chat-tug/contracts && node --env-file-if-exists=.env scripts/dev.mjs",
+    "build": "node --env-file-if-exists=.env --run build:workspaces",
+    "build:workspaces": "npm run build -w @chat-tug/contracts && npm run build -w @chat-tug/realtime && npm run build -w @chat-tug/web",
+    "start": "node --env-file-if-exists=.env scripts/dev.mjs --production",
+    "lint": "eslint . --max-warnings=0",
+    "typecheck": "next typegen ./apps/web && tsc -p packages/contracts --noEmit && tsc -p apps/realtime --noEmit && tsc -p apps/web --noEmit && tsc -p tsconfig.tools.json --noEmit",
+    "test": "vitest run",
+    "test:scenarios": "node --import tsx scripts/game-scenarios.ts",
+    "test:game-performance": "node --import tsx scripts/game-benchmark.ts",
+    "qa:phase4": "node --import tsx scripts/phase4-visual-qa.ts",
+    "qa:release-load": "node --expose-gc --import tsx scripts/phase7-load-qa.ts",
+    "pretest": "npm run build -w @chat-tug/contracts",
+    "contrast": "node scripts/contrast.mjs",
+    "test:e2e": "playwright test",
+    "check": "npm run lint && npm run typecheck && npm test && npm run contrast && npm run build"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^22.0.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "16.4.3",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.0.0",
+    "vitest": "^4.0.0"
+  }
+}

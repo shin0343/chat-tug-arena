@@ -1,0 +1,44 @@
+
+> chat-tug-arena@0.1.0 test:e2e
+> playwright test tests/e2e/release.spec.ts
+
+
+Running 1 test using 1 worker
+
+(node:83089) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/e2e/release.spec.ts:5:1 › a delayed action cannot restore pre-rotation CSRF after a fresh session bootstrap (435ms)
+
+
+  1) [chromium] › tests/e2e/release.spec.ts:5:1 › a delayed action cannot restore pre-rotation CSRF after a fresh session bootstrap 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 200
+    Received: 403
+
+      20 |     const started = page.waitForResponse(response => new URL(response.url()).pathname === '/api/simulation/start');
+      21 |     await page.getByRole('button', { name: 'Run local simulation', exact: true }).click();
+    > 22 |     expect((await started).status()).toBe(200);
+         |                                      ^
+      23 |     await expect(page.locator('.workspace-topbar .status')).toHaveText('Simulation mode');
+      24 |     await mkdir('docs/qa/phase7/regression', { recursive: true });
+      25 |     await page.screenshot({ path: 'docs/qa/phase7/regression/session-rotation-recovery.png' });
+        at /Users/sjh/Hackaton & Contest/twitch-codex-plugin-hackaton/tests/e2e/release.spec.ts:22:38
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/release-a-delayed-action-c-db800-r-a-fresh-session-bootstrap-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/release-a-delayed-action-c-db800-r-a-fresh-session-bootstrap-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/release-a-delayed-action-c-db800-r-a-fresh-session-bootstrap-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/release-a-delayed-action-c-db800-r-a-fresh-session-bootstrap-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests/e2e/release.spec.ts:5:1 › a delayed action cannot restore pre-rotation CSRF after a fresh session bootstrap 

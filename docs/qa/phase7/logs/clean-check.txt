@@ -1,0 +1,104 @@
+
+> chat-tug-arena@0.1.0 check
+> npm run lint && npm run typecheck && npm test && npm run contrast && npm run build
+
+
+> chat-tug-arena@0.1.0 lint
+> eslint . --max-warnings=0
+
+
+> chat-tug-arena@0.1.0 typecheck
+> next typegen ./apps/web && tsc -p packages/contracts --noEmit && tsc -p apps/realtime --noEmit && tsc -p apps/web --noEmit && tsc -p tsconfig.tools.json --noEmit
+
+Generating route types...
+✓ Types generated successfully
+
+> chat-tug-arena@0.1.0 pretest
+> npm run build -w @chat-tug/contracts
+
+
+> @chat-tug/contracts@0.1.0 build
+> tsc -p tsconfig.json
+
+
+> chat-tug-arena@0.1.0 test
+> vitest run
+
+
+ RUN  v4.1.12 /private/tmp/cta-phase7-clean-b3KGTD
+
+
+ Test Files  13 passed (13)
+      Tests  145 passed (145)
+   Start at  03:08:14
+   Duration  4.60s (transform 936ms, setup 0ms, import 1.37s, tests 8.97s, environment 1ms)
+
+
+> chat-tug-arena@0.1.0 contrast
+> node scripts/contrast.mjs
+
+PASS text-primary / surface: 14.26:1 (minimum 4.5:1)
+PASS text-secondary / surface: 5.92:1 (minimum 4.5:1)
+PASS text-secondary / background: 5.51:1 (minimum 4.5:1)
+PASS surface / primary-action: 9.15:1 (minimum 4.5:1)
+PASS surface / primary-hover: 11.71:1 (minimum 4.5:1)
+PASS sidebar-muted / sidebar: 7.75:1 (minimum 4.5:1)
+PASS team-a-ink / paper: 7.85:1 (minimum 4.5:1)
+PASS team-b-ink / paper: 7.26:1 (minimum 4.5:1)
+PASS text-primary / team-a: 6.58:1 (minimum 4.5:1)
+PASS text-primary / team-b: 8.75:1 (minimum 4.5:1)
+PASS success / success-soft: 6.44:1 (minimum 4.5:1)
+PASS warning / warning-soft: 6.18:1 (minimum 4.5:1)
+PASS error / error-soft: 6.10:1 (minimum 4.5:1)
+PASS border-control / surface: 3.20:1 (minimum 3:1)
+PASS focus / surface: 5.38:1 (minimum 3:1)
+PASS focus / background: 5.00:1 (minimum 3:1)
+
+> chat-tug-arena@0.1.0 build
+> node --env-file-if-exists=.env --run build:workspaces
+
+
+> @chat-tug/contracts@0.1.0 build
+> tsc -p tsconfig.json
+
+
+> @chat-tug/realtime@0.1.0 build
+> tsc -p tsconfig.json
+
+
+> @chat-tug/web@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.4.3 (webpack)
+✓ Running next.config.ts took 11ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 668ms
+  Running TypeScript ...
+  Finished TypeScript in 1071ms ...
+  Collecting page data using 13 workers ...
+  Generating static pages using 13 workers (0/12) ...
+  Generating static pages using 13 workers (3/12) 
+  Generating static pages using 13 workers (6/12) 
+  Generating static pages using 13 workers (9/12) 
+✓ Generating static pages using 13 workers (12/12) in 253ms
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /dashboard
+├ ○ /dashboard/connection
+├ ○ /dashboard/history
+├ ○ /dashboard/mechanics
+├ ○ /dashboard/overlay
+├ ○ /dashboard/round
+├ ○ /icon.svg
+├ ƒ /overlay
+└ ○ /setup
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

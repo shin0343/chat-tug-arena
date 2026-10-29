@@ -1,0 +1,50 @@
+{
+  "capturedAt": "2026-10-28T14:41:46.666Z",
+  "scope": "Actual localhost production UI + Node + public SSE; no Twitch inputs, no simulation, no native OBS",
+  "status": "PASS",
+  "step": "complete",
+  "pageErrors": 0,
+  "backend": {
+    "reachable": true,
+    "twitchConfigured": false,
+    "protocolVersion": 2
+  },
+  "session": {
+    "state": "not_connected",
+    "mode": "idle",
+    "authorized": false,
+    "credentialsConfigured": false,
+    "issue": "credentials_missing",
+    "persistence": "encrypted",
+    "recognizedInputs": 0,
+    "gameState": "IDLE"
+  },
+  "liveEvidenceHttpStatus": 409,
+  "overlay": {
+    "viewport": [
+      1920,
+      1080
+    ],
+    "bodyBackground": "rgba(0, 0, 0, 0)",
+    "scrollWidth": 1920,
+    "scrollHeight": 1080,
+    "characterCount": 4,
+    "position": 0,
+    "buttons": 0,
+    "sessionCookies": 0
+  },
+  "runtimeSourceMatchesPhase8": {
+    "apps/web/src/lib/connection-store.tsx": true,
+    "apps/realtime/src/sse.ts": true,
+    "apps/realtime/src/server.ts": true,
+    "apps/realtime/src/room.ts": true,
+    "apps/realtime/src/runtime.ts": true,
+    "apps/realtime/src/game/engine.ts": true,
+    "apps/realtime/src/game/tuning.ts": true,
+    "packages/contracts/src/index.ts": true,
+    "package-lock.json": true,
+    "DESIGN.md": true
+  },
+  "actualLiveTwitchVerified": false,
+  "actualObsVerified": false
+}

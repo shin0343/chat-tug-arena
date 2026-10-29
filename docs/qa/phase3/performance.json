@@ -1,0 +1,19 @@
+{
+  "runtime": "v22.23.1",
+  "platform": "darwin/arm64",
+  "scope": "pure engine; local capacity probe; no network/OBS load claim",
+  "trackedUsers": 5000,
+  "trackedIds": 5001,
+  "attemptedBurst": 50000,
+  "rejected": 49999,
+  "burstMs": 31.144207999999992,
+  "ticksMeasured": 1000,
+  "totalTickMs": 1.404500000000013,
+  "averageStepMs": 0.001404500000000013,
+  "maximumStepMs": 0.44266700000000014,
+  "fixedStepBudgetMs": 20,
+  "privateSnapshotBytes": 12399,
+  "publicGameSnapshotBytes": 7840,
+  "retainedDecisions": 40,
+  "retainedEvents": 64
+}

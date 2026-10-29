@@ -1,0 +1,35 @@
+{
+  "capturedAt": "2026-10-28T06:58:53.296Z",
+  "runtime": "v22.23.1",
+  "platform": "darwin/arm64",
+  "rootEnvPresent": false,
+  "credentialPresence": {
+    "TWITCH_CLIENT_ID": false,
+    "TWITCH_CLIENT_SECRET": false,
+    "SESSION_ENCRYPTION_KEY": false
+  },
+  "nativeObsPathsPresent": [
+    {
+      "path": "/Applications/OBS.app",
+      "present": false
+    },
+    {
+      "path": "/Applications/OBS Studio.app",
+      "present": false
+    },
+    {
+      "path": "/Users/sjh/Applications/OBS.app",
+      "present": false
+    }
+  ],
+  "gitMetadataPresent": false,
+  "cleanInstall": {
+    "directory": "/tmp/cta-phase7-clean-b3KGTD",
+    "firstAttempt": "ETIMEDOUT at npm registry",
+    "retry": "npm ci --cache /tmp/cta-phase7-npm-cache --no-fund --maxsockets=5",
+    "exitCode": 0,
+    "sourceOnly": true,
+    "env": "copied credential-free .env.example",
+    "scope": "same host, separate source/dependencies/build; shared OS and installed Chromium cache, not a clean VM"
+  }
+}

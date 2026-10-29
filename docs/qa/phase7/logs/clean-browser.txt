@@ -1,0 +1,31 @@
+
+> chat-tug-arena@0.1.0 test:e2e
+> playwright test tests/e2e/release.spec.ts tests/e2e/showdown.spec.ts
+
+[WebServer] (node:54804) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:54803) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 9 tests using 1 worker
+
+(node:54805) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [chromium] › tests/e2e/release.spec.ts:5:1 › a delayed action cannot restore pre-rotation CSRF after a fresh session bootstrap (458ms)
+  ✓  2 [chromium] › tests/e2e/release.spec.ts:29:1 › configured HTML remains literal text in the dashboard and read-only overlay (354ms)
+  ✓  3 [chromium] › tests/e2e/showdown.spec.ts:19:1 › complete streamer journey uses actual server results, commitment, history and a separate public overlay (10.3s)
+  ✓  4 [chromium] › tests/e2e/showdown.spec.ts:50:1 › pause, resume, manual finish and reset are confirmed; native dialog traps focus and restores it (5.5s)
+  ✓  5 [chromium] › tests/e2e/showdown.spec.ts:62:1 › configuration errors keep edits, focus the invalid field and recover after a failed save (1.2s)
+  ✓  6 [chromium] › tests/e2e/showdown.spec.ts:71:1 › a stale settings tab retains its draft and cannot silently overwrite a newer save (446ms)
+  ✓  7 [chromium] › tests/e2e/showdown.spec.ts:79:1 › a fresh-command start condition and reduced-motion feedback work without starting early (702ms)
+  ✓  8 [chromium] › tests/e2e/showdown.spec.ts:86:1 › maximum choices, keywords and consequences fit desktop, mobile and the actual overlay (4.9s)
+  ✓  9 [chromium] › tests/e2e/showdown.spec.ts:97:1 › losing dashboard transport disables controls, hides the clock and recovers current authority (3.8s)
+[WebServer] npm error Lifecycle script `start` failed with error:
+[WebServer] npm error code 143
+[WebServer] npm error path /private/tmp/cta-phase7-clean-b3KGTD/apps/web
+[WebServer] npm error workspace @chat-tug/web@0.1.0
+[WebServer] npm error location /private/tmp/cta-phase7-clean-b3KGTD/apps/web
+[WebServer] npm error command failed
+[WebServer] npm error command sh -c next start --hostname 127.0.0.1 --port 3000
+
+  9 passed (28.5s)

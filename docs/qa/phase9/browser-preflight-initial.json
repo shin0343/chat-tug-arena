@@ -1,0 +1,8 @@
+{
+  "capturedAt": "2026-10-28T14:40:27.228Z",
+  "scope": "Actual localhost production UI + Node + public SSE; no Twitch inputs, no simulation, no native OBS",
+  "status": "FAIL",
+  "step": "backend health",
+  "pageErrors": 0,
+  "errorClass": "TypeError"
+}

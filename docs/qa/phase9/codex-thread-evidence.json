@@ -1,0 +1,28 @@
+{
+  "capturedAt": "2026-10-28T14:33:30.307Z",
+  "runtimeIdsPresent": true,
+  "runtimeIdsMatch": true,
+  "matchingSessionFiles": 1,
+  "metadata": {
+    "id": null,
+    "cwd": "/Users/sjh/Hackaton & Contest",
+    "source": "cli",
+    "hasParentThread": false,
+    "timestamp": "2026-10-27T20:44:11.129Z",
+    "originator": "codex-tui"
+  },
+  "userProjectMentions": 5,
+  "userPhases": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "firstProjectMessageAt": "2026-10-27T20:44:25.828Z",
+  "matchesRuntime": true,
+  "scope": "Only the current exported thread file was read; no unrelated sessions or raw conversation text are emitted.",
+  "publicIdentityHandling": "Actual principal identifier and native proof retained in ignored private submission handoff; supply it only in the required Devpost field."
+}

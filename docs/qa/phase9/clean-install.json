@@ -1,0 +1,53 @@
+{
+  "capturedAt": "2026-10-28T20:16:36.033Z",
+  "status": "PASS",
+  "scope": "Fresh source-only Git-tree archive and dependencies on the same macOS host; shared npm/Chromium cache, not a clean VM or live Twitch test",
+  "sourceTree": "2c0a883cf59cbefa600689620dcb3d07a64c1f66",
+  "sourceAndTestFilesCompared": 108,
+  "sourceDifferences": [],
+  "privateEnvAbsent": true,
+  "privateVaultAbsent": true,
+  "install": {
+    "command": "npm ci --prefer-offline --maxsockets=5",
+    "exitCode": 0,
+    "packagesAdded": 414,
+    "packagesAudited": 418,
+    "reportedVulnerabilities": 0,
+    "deprecation": "ESLint 9.39.5 support warning; no dependency changes during feature freeze"
+  },
+  "check": {
+    "command": "npm run check",
+    "exitCode": 0,
+    "lint": "PASS",
+    "typecheck": "PASS",
+    "unitIntegration": 147,
+    "testFiles": 13,
+    "testDurationSeconds": 4.64,
+    "contrastPairs": 16,
+    "productionBuild": "PASS"
+  },
+  "browser": {
+    "command": "PLAYWRIGHT_PRODUCTION=1 npm run test:e2e",
+    "exitCode": 0,
+    "passed": 50,
+    "reportedDuration": "1.7m",
+    "serverPorts": [
+      3100,
+      3101
+    ],
+    "source": "Anonymous and test-fixture/simulation contexts; no real Twitch credentials",
+    "temporaryServersStopped": true
+  },
+  "realServicesPreserved": {
+    "ports": [
+      3000,
+      3001
+    ],
+    "finalBackendHealth": "PASS"
+  },
+  "logs": [
+    "clean-install.txt",
+    "clean-check.txt",
+    "clean-browser-tests.txt"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "capturedAt": "2026-10-28T20:17:41.746Z",
+  "releaseStatus": "BLOCKED",
+  "submitted": false,
+  "featureFreeze": true,
+  "runtimeModified": true,
+  "modifiedProductionFiles": [
+    "apps/realtime/src/sessions.ts",
+    "apps/realtime/src/server.ts",
+    "apps/web/src/lib/connection-store.tsx"
+  ],
+  "servicesStarted": true,
+  "newProductionBuildRun": true,
+  "liveTwitch": {
+    "status": "PASS",
+    "scope": "Genuine one-account OAuth, EventSub, A/B in separate rounds, authoritative motion/decay, results, acknowledgment and rematch",
+    "multiUserCombo": "BLOCKED",
+    "liveComeback": "BLOCKED",
+    "sameIdRedelivery": "BLOCKED",
+    "insideCooldownOrDiminishing": "NOT_DEMONSTRATED",
+    "invalidItemsObserved": 1
+  },
+  "nativeObs": "BLOCKED",
+  "principalCodexSessionId": {
+    "status": "PASS",
+    "value": null,
+    "source": "Matching current runtime and native root-thread metadata; no /status UI recording"
+  },
+  "repository": {
+    "localInitialized": true,
+    "branch": "main",
+    "localCommit": "PASS",
+    "sourceCommit": "80ff3dc4553d42452adfca6744abfe7cf7b6a039",
+    "remoteConfigured": false,
+    "judgeAccess": "BLOCKED"
+  },
+  "authenticRawBrowserTake": {
+    "status": "PASS",
+    "durationSeconds": 34.998333,
+    "nativeOBS": false,
+    "finalDemo": false
+  },
+  "authenticFinalDemo": "BLOCKED",
+  "publicYouTubeUrl": "BLOCKED",
+  "devpostSubmitted": "BLOCKED",
+  "freshTests": {
+    "status": "PASS",
+    "unitIntegration": 147,
+    "testFiles": 13,
+    "productionChromium": 50,
+    "lint": "PASS",
+    "typecheck": "PASS",
+    "contrastPairs": 16,
+    "build": "PASS",
+    "scope": "Local production and fixture regression tests; actual Twitch results are recorded separately"
+  },
+  "cleanSourceVerification": {
+    "status": "PASS",
+    "unitIntegration": 147,
+    "productionChromium": 50,
+    "sourceAndTestFilesCompared": 108,
+    "evidence": "clean-install.json"
+  },
+  "credentialSafety": {
+    "privateEnv": "IGNORED_MODE_600",
+    "privateEvidence": "IGNORED_MODE_700",
+    "sourceStagingAndPublicStaticMatches": 0,
+    "conversationExposure": "OWNER_ROTATION_RECOMMENDED_NOT_PERFORMED",
+    "committedHistory": "PASS_SCOPED"
+  },
+  "privateTwitchConfigurationApplied": true,
+  "localOAuthStartVerified": true,
+  "broadcasterAuthorization": "PASS",
+  "projectGitMutations": [
+    "Initialized local main",
+    "Staged reviewed source/assets/documentation",
+    "Created local release source commit 80ff3dc",
+    "Scanned actual committed history without secret matches"
+  ],
+  "externalWrites": [
+    "Authorized genuine Twitch test chat messages; no Git push, visibility change, video upload or Devpost submission"
+  ],
+  "requiredNextAction": "Native OBS and genuine multi-account verification, final Codex/live footage and human narration, owner license/rotation decisions, then explicitly authorized judge repository/video/submission actions."
+}

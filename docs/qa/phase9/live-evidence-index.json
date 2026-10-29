@@ -1,0 +1,32 @@
+{
+  "capturedAt": "2026-10-28T20:16:36.033Z",
+  "publicEvidence": [
+    "live-twitch-subscription.json",
+    "live-physics-samples.json",
+    "live-input-observations.json",
+    "live-coral-mechanics.png",
+    "release-check.txt",
+    "browser-release-tests.txt",
+    "scenarios.json",
+    "clean-install.json",
+    "clean-install.txt",
+    "clean-check.txt",
+    "clean-browser-tests.txt",
+    "release-git-scan.json"
+  ],
+  "privateBrowserMovie": {
+    "path": ".local-evidence/live-twitch-mint-round.mov",
+    "sha256": "67f492c0e8a6ff92eb03ba198e24f3c009333680197268017775961821c564eb",
+    "durationSeconds": 34.998333,
+    "width": 1464,
+    "height": 1720,
+    "codec": "h264",
+    "encodedAverageFrameRate": "444/35",
+    "rendererFpsMeasured": false,
+    "source": "actual native browser region; genuine Twitch account/messages",
+    "sampledFramesReviewed": 6,
+    "finalDemo": false,
+    "nativeOBS": false
+  },
+  "sourceURL": "Copy current room-linked source in the running application; private fragment is not published."
+}

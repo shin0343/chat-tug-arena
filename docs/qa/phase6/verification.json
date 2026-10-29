@@ -1,0 +1,130 @@
+{
+  "phase": 6,
+  "verifiedAt": "2026-10-28T04:40:27.667Z",
+  "releaseCheck": {
+    "command": "npm run check",
+    "passed": true,
+    "lint": true,
+    "typecheck": true,
+    "tests": {
+      "passed": 137,
+      "files": 11,
+      "includes": "Component render, deterministic engine, HTTP/SSE/OAuth provider fixture integration"
+    },
+    "contrastPairs": 16,
+    "productionBuild": true
+  },
+  "browser": {
+    "command": "PLAYWRIGHT_PRODUCTION=1 npm run test:e2e",
+    "engine": "Chromium",
+    "total": 47,
+    "expected": 47,
+    "unexpected": 0,
+    "flaky": 0,
+    "skipped": 0,
+    "ok": true,
+    "durationMs": 100217.023,
+    "startedAt": "2026-10-28T04:37:04.612Z"
+  },
+  "visualEvidence": {
+    "screenshots": {
+      "before": 52,
+      "after": 52,
+      "regression": 72
+    },
+    "totalScreenshots": 176,
+    "pairedCaptureCompleted": true,
+    "recordings": [
+      {
+        "name": "before-showdown",
+        "duration": "9.200000",
+        "size": "384123",
+        "video": {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      {
+        "name": "before-reversal",
+        "duration": "5.600000",
+        "size": "233848",
+        "video": {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      {
+        "name": "after-showdown",
+        "duration": "9.280000",
+        "size": "372371",
+        "video": {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      {
+        "name": "after-reversal",
+        "duration": "5.520000",
+        "size": "209718",
+        "video": {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      {
+        "name": "streamer-journey",
+        "duration": "11.200000",
+        "size": "788412",
+        "video": {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 890
+        }
+      },
+      {
+        "name": "consequence-overlay",
+        "duration": "11.280000",
+        "size": "395728",
+        "video": {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      {
+        "name": "game-motion",
+        "duration": "8.480000",
+        "size": "413715",
+        "video": {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 720
+        }
+      }
+    ],
+    "measurements": "measurements.json"
+  },
+  "limits": {
+    "realTwitch": false,
+    "nativeOBS": false,
+    "authenticatedMobbinFlows": false,
+    "noviceStreamerStudy": false,
+    "otherBrowserEngines": false,
+    "newFrameRateClaim": false,
+    "automaticGameControl": false,
+    "durableHistory": false
+  },
+  "documentation": {
+    "localLinksChecked": 61,
+    "missingLinks": []
+  },
+  "cleanup": {
+    "testListeners3000and3001Closed": true,
+    "namedOriginalRecordingsKept": 7,
+    "duplicateRawRecordingsRemoved": 17
+  }
+}

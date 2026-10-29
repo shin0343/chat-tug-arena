@@ -1,0 +1,599 @@
+{
+  "capturedAt": "2026-10-28T06:50:34.681Z",
+  "runtime": "v22.23.1",
+  "platform": "darwin/arm64",
+  "scope": "120s default local HTTP/SSE + explicit test_fixture EventSub; not Twitch/network/OBS or production capacity proof",
+  "requestedSoakMs": 120000,
+  "elapsedMs": 120053.7655,
+  "gcAvailable": true,
+  "attempted": 2714,
+  "stages": [
+    {
+      "stage": "moderate",
+      "attempted": 601,
+      "elapsedMs": 30049.504625,
+      "targetMessagesPerSecond": 20
+    },
+    {
+      "stage": "1000-message-burst",
+      "elapsedMs": 19.615082999996957,
+      "accepted": 202,
+      "rejected": 299,
+      "reasons": {
+        "inactive": 0,
+        "duplicate": 0,
+        "cooldown": 0,
+        "team_locked": 0,
+        "repeat_limit": 0,
+        "rate_limited": 299,
+        "capacity": 0,
+        "late": 0,
+        "wrong_source": 0
+      }
+    },
+    {
+      "stage": "quiet-decay",
+      "quietMs": 3000,
+      "totalForceBefore": 32.445016653989896,
+      "totalForceAfter": 5.802166387978118
+    },
+    {
+      "stage": "fixture-reconnect",
+      "recoveryMs": 1015.5634580000042,
+      "subscriptions": 2,
+      "stateAfterReconnect": "PAUSED",
+      "explicitResume": true,
+      "frozenPosition": -0.01614081731917398
+    },
+    {
+      "stage": "round-1",
+      "attempted": 20,
+      "elapsedMs": 1001.028624999999,
+      "targetMessagesPerSecond": 20
+    },
+    {
+      "stage": "round-2",
+      "attempted": 21,
+      "elapsedMs": 1049.7277080000058,
+      "targetMessagesPerSecond": 20
+    },
+    {
+      "stage": "round-3",
+      "attempted": 21,
+      "elapsedMs": 1049.354207999997,
+      "targetMessagesPerSecond": 20
+    },
+    {
+      "stage": "round-4",
+      "attempted": 21,
+      "elapsedMs": 1052.1631669999988,
+      "targetMessagesPerSecond": 20
+    },
+    {
+      "stage": "round-5",
+      "attempted": 20,
+      "elapsedMs": 1001.0893749999959,
+      "targetMessagesPerSecond": 20
+    },
+    {
+      "stage": "round-6",
+      "attempted": 20,
+      "elapsedMs": 1000.4056669999991,
+      "targetMessagesPerSecond": 20
+    },
+    {
+      "stage": "round-7",
+      "attempted": 20,
+      "elapsedMs": 1000.4217499999941,
+      "targetMessagesPerSecond": 20
+    },
+    {
+      "stage": "round-8",
+      "attempted": 21,
+      "elapsedMs": 1051.3995839999989,
+      "targetMessagesPerSecond": 20
+    },
+    {
+      "stage": "soak",
+      "attempted": 100,
+      "elapsedMs": 5000.776166000011,
+      "targetMessagesPerSecond": 20
+    },
+    {
+      "stage": "soak",
+      "attempted": 101,
+      "elapsedMs": 5050.837541999994,
+      "targetMessagesPerSecond": 20
+    },
+    {
+      "stage": "soak",
+      "attempted": 100,
+      "elapsedMs": 5000.724792000008,
+      "targetMessagesPerSecond": 20
+    },
+    {
+      "stage": "soak",
+      "attempted": 100,
+      "elapsedMs": 5002.518499999991,
+      "targetMessagesPerSecond": 20
+    },
+    {
+      "stage": "soak",
+      "attempted": 100,
+      "elapsedMs": 5000.851708000002,
+      "targetMessagesPerSecond": 20
+    },
+    {
+      "stage": "soak",
+      "attempted": 101,
+      "elapsedMs": 5049.478625000003,
+      "targetMessagesPerSecond": 20
+    },
+    {
+      "stage": "soak",
+      "attempted": 100,
+      "elapsedMs": 5001.760624999995,
+      "targetMessagesPerSecond": 20
+    },
+    {
+      "stage": "soak",
+      "attempted": 101,
+      "elapsedMs": 5050.028957999995,
+      "targetMessagesPerSecond": 20
+    },
+    {
+      "stage": "soak",
+      "attempted": 100,
+      "elapsedMs": 5000.796792000008,
+      "targetMessagesPerSecond": 20
+    },
+    {
+      "stage": "soak",
+      "attempted": 45,
+      "elapsedMs": 2250.3861250000045,
+      "targetMessagesPerSecond": 20
+    }
+  ],
+  "rounds": [
+    {
+      "label": "moderate-burst-recovery",
+      "roundId": "round-1",
+      "state": "FINISHED",
+      "accepted": 803,
+      "rejected": 299,
+      "uniqueViewers": 282,
+      "trackedUsers": 282,
+      "trackedIds": 803,
+      "retainedInputs": 40,
+      "retainedEvents": 52,
+      "position": -0.01614081731917398,
+      "result": {
+        "roundId": "round-1",
+        "winner": "coral",
+        "reason": "manual",
+        "finalPosition": -0.01614081731917398,
+        "elapsedMs": 33260,
+        "uniqueViewers": 282,
+        "contributions": {
+          "coral": 402,
+          "mint": 401
+        }
+      }
+    },
+    {
+      "label": "repeat-1",
+      "roundId": "round-2",
+      "state": "FINISHED",
+      "accepted": 20,
+      "rejected": 0,
+      "uniqueViewers": 20,
+      "trackedUsers": 20,
+      "trackedIds": 20,
+      "retainedInputs": 20,
+      "retainedEvents": 9,
+      "position": -0.014316673693845318,
+      "result": {
+        "roundId": "round-2",
+        "winner": null,
+        "reason": "tie",
+        "finalPosition": -0.014767778965729773,
+        "elapsedMs": 1000,
+        "uniqueViewers": 20,
+        "contributions": {
+          "coral": 10,
+          "mint": 10
+        }
+      }
+    },
+    {
+      "label": "repeat-2",
+      "roundId": "round-3",
+      "state": "FINISHED",
+      "accepted": 21,
+      "rejected": 0,
+      "uniqueViewers": 21,
+      "trackedUsers": 21,
+      "trackedIds": 21,
+      "retainedInputs": 21,
+      "retainedEvents": 9,
+      "position": -0.02278312728219111,
+      "result": {
+        "roundId": "round-3",
+        "winner": "coral",
+        "reason": "manual",
+        "finalPosition": -0.023554371335782056,
+        "elapsedMs": 1060,
+        "uniqueViewers": 21,
+        "contributions": {
+          "coral": 11,
+          "mint": 10
+        }
+      }
+    },
+    {
+      "label": "repeat-3",
+      "roundId": "round-4",
+      "state": "FINISHED",
+      "accepted": 21,
+      "rejected": 0,
+      "uniqueViewers": 21,
+      "trackedUsers": 21,
+      "trackedIds": 21,
+      "retainedInputs": 21,
+      "retainedEvents": 9,
+      "position": -0.019808305829572753,
+      "result": {
+        "roundId": "round-4",
+        "winner": "coral",
+        "reason": "manual",
+        "finalPosition": -0.02045437232872829,
+        "elapsedMs": 1060,
+        "uniqueViewers": 21,
+        "contributions": {
+          "coral": 11,
+          "mint": 10
+        }
+      }
+    },
+    {
+      "label": "repeat-4",
+      "roundId": "round-5",
+      "state": "FINISHED",
+      "accepted": 21,
+      "rejected": 0,
+      "uniqueViewers": 21,
+      "trackedUsers": 21,
+      "trackedIds": 21,
+      "retainedInputs": 21,
+      "retainedEvents": 9,
+      "position": -0.023281760404463767,
+      "result": {
+        "roundId": "round-5",
+        "winner": "coral",
+        "reason": "manual",
+        "finalPosition": -0.024047485401546453,
+        "elapsedMs": 1060,
+        "uniqueViewers": 21,
+        "contributions": {
+          "coral": 11,
+          "mint": 10
+        }
+      }
+    },
+    {
+      "label": "repeat-5",
+      "roundId": "round-6",
+      "state": "FINISHED",
+      "accepted": 20,
+      "rejected": 0,
+      "uniqueViewers": 20,
+      "trackedUsers": 20,
+      "trackedIds": 20,
+      "retainedInputs": 20,
+      "retainedEvents": 9,
+      "position": -0.014316673693845318,
+      "result": {
+        "roundId": "round-6",
+        "winner": null,
+        "reason": "tie",
+        "finalPosition": -0.014767778965729773,
+        "elapsedMs": 1000,
+        "uniqueViewers": 20,
+        "contributions": {
+          "coral": 10,
+          "mint": 10
+        }
+      }
+    },
+    {
+      "label": "repeat-6",
+      "roundId": "round-7",
+      "state": "FINISHED",
+      "accepted": 20,
+      "rejected": 0,
+      "uniqueViewers": 20,
+      "trackedUsers": 20,
+      "trackedIds": 20,
+      "retainedInputs": 20,
+      "retainedEvents": 9,
+      "position": -0.014767778965729773,
+      "result": {
+        "roundId": "round-7",
+        "winner": null,
+        "reason": "tie",
+        "finalPosition": -0.014767778965729773,
+        "elapsedMs": 1000,
+        "uniqueViewers": 20,
+        "contributions": {
+          "coral": 10,
+          "mint": 10
+        }
+      }
+    },
+    {
+      "label": "repeat-7",
+      "roundId": "round-8",
+      "state": "FINISHED",
+      "accepted": 20,
+      "rejected": 0,
+      "uniqueViewers": 20,
+      "trackedUsers": 20,
+      "trackedIds": 20,
+      "retainedInputs": 20,
+      "retainedEvents": 9,
+      "position": -0.015015190857009827,
+      "result": {
+        "roundId": "round-8",
+        "winner": "coral",
+        "reason": "manual",
+        "finalPosition": -0.015467934390329584,
+        "elapsedMs": 1000,
+        "uniqueViewers": 20,
+        "contributions": {
+          "coral": 10,
+          "mint": 10
+        }
+      }
+    },
+    {
+      "label": "repeat-8",
+      "roundId": "round-9",
+      "state": "FINISHED",
+      "accepted": 21,
+      "rejected": 0,
+      "uniqueViewers": 21,
+      "trackedUsers": 21,
+      "trackedIds": 21,
+      "retainedInputs": 21,
+      "retainedEvents": 9,
+      "position": -0.023281760404463767,
+      "result": {
+        "roundId": "round-9",
+        "winner": "coral",
+        "reason": "manual",
+        "finalPosition": -0.024047485401546453,
+        "elapsedMs": 1060,
+        "uniqueViewers": 21,
+        "contributions": {
+          "coral": 11,
+          "mint": 10
+        }
+      }
+    },
+    {
+      "label": "soak-final",
+      "roundId": "round-10",
+      "state": "FINISHED",
+      "accepted": 765,
+      "rejected": 183,
+      "uniqueViewers": 80,
+      "trackedUsers": 80,
+      "trackedIds": 765,
+      "retainedInputs": 40,
+      "retainedEvents": 64,
+      "position": 0.029732448373372352,
+      "result": {
+        "roundId": "round-10",
+        "winner": "mint",
+        "reason": "manual",
+        "finalPosition": 0.029679238837379975,
+        "elapsedMs": 47400,
+        "uniqueViewers": 80,
+        "contributions": {
+          "coral": 383,
+          "mint": 382
+        }
+      }
+    }
+  ],
+  "pipeline": {
+    "received": 2614,
+    "recognized": 2214,
+    "ignored": 200,
+    "duplicates": 200,
+    "invalid": 100
+  },
+  "synchronousEventProcessing": {
+    "samples": 2614,
+    "p50Ms": 0.10087500000372529,
+    "p95Ms": 0.5259169999999358,
+    "maximumMs": 1.1758340000014869
+  },
+  "observedDashboardDelivery": {
+    "samples": 1754,
+    "p50Ms": 49.298249999999825,
+    "p95Ms": 101.42237499999464,
+    "maximumMs": 106.52437500000815,
+    "limitation": "Only sampled inputs retained by the 40-item coalesced dashboard feed; not all-message delivery latency"
+  },
+  "clients": [
+    {
+      "kind": "overlay",
+      "bytes": 6352490,
+      "snapshots": 1371,
+      "maxGapMs": 111.34195799999725,
+      "firstSnapshotMs": 7.774917000000016,
+      "snapshotsPerSecond": 11.41988336883944
+    },
+    {
+      "kind": "overlay",
+      "bytes": 6352490,
+      "snapshots": 1371,
+      "maxGapMs": 111.35674999999901,
+      "firstSnapshotMs": 2.3012500000000102,
+      "snapshotsPerSecond": 11.41988336883944
+    },
+    {
+      "kind": "overlay",
+      "bytes": 6352490,
+      "snapshots": 1371,
+      "maxGapMs": 111.35845800000243,
+      "firstSnapshotMs": 2.010791999999981,
+      "snapshotsPerSecond": 11.41988336883944
+    },
+    {
+      "kind": "overlay",
+      "bytes": 6352490,
+      "snapshots": 1371,
+      "maxGapMs": 111.36158299999806,
+      "firstSnapshotMs": 1.3137499999999989,
+      "snapshotsPerSecond": 11.41988336883944
+    },
+    {
+      "kind": "overlay",
+      "bytes": 6352490,
+      "snapshots": 1371,
+      "maxGapMs": 111.35262499999953,
+      "firstSnapshotMs": 1.1696669999999756,
+      "snapshotsPerSecond": 11.41988336883944
+    },
+    {
+      "kind": "overlay",
+      "bytes": 6352490,
+      "snapshots": 1371,
+      "maxGapMs": 111.35445799999434,
+      "firstSnapshotMs": 0.9738340000000107,
+      "snapshotsPerSecond": 11.41988336883944
+    },
+    {
+      "kind": "dashboard",
+      "bytes": 24008192,
+      "snapshots": 1371,
+      "maxGapMs": 111.34500000000116,
+      "firstSnapshotMs": 1.0710840000000132,
+      "snapshotsPerSecond": 11.41988336883944
+    }
+  ],
+  "streamErrors": [],
+  "eventLoop": {
+    "meanMs": 10.95518729115311,
+    "p95Ms": 12.075007,
+    "maximumMs": 33.882111
+  },
+  "memory": [
+    {
+      "stage": "connected",
+      "elapsedMs": 30.29525000000001,
+      "heapUsed": 11898416,
+      "rss": 104955904,
+      "external": 6188287
+    },
+    {
+      "stage": "soak",
+      "elapsedMs": 10034.627042,
+      "heapUsed": 12509224,
+      "rss": 109395968,
+      "external": 6361585
+    },
+    {
+      "stage": "soak",
+      "elapsedMs": 20036.060042,
+      "heapUsed": 12674864,
+      "rss": 116244480,
+      "external": 7184611
+    },
+    {
+      "stage": "soak",
+      "elapsedMs": 30036.1175,
+      "heapUsed": 12889320,
+      "rss": 120373248,
+      "external": 6608365
+    },
+    {
+      "stage": "soak",
+      "elapsedMs": 40036.56875,
+      "heapUsed": 13201208,
+      "rss": 122535936,
+      "external": 7166781
+    },
+    {
+      "stage": "soak",
+      "elapsedMs": 50036.411209,
+      "heapUsed": 13317672,
+      "rss": 123109376,
+      "external": 7141331
+    },
+    {
+      "stage": "soak",
+      "elapsedMs": 60033.71225,
+      "heapUsed": 13381632,
+      "rss": 123633664,
+      "external": 6813872
+    },
+    {
+      "stage": "soak",
+      "elapsedMs": 70036.000834,
+      "heapUsed": 13474856,
+      "rss": 124305408,
+      "external": 6989988
+    },
+    {
+      "stage": "soak",
+      "elapsedMs": 80036.124917,
+      "heapUsed": 13568528,
+      "rss": 130891776,
+      "external": 8033753
+    },
+    {
+      "stage": "soak",
+      "elapsedMs": 90037.692042,
+      "heapUsed": 13728352,
+      "rss": 133103616,
+      "external": 8413136
+    },
+    {
+      "stage": "soak",
+      "elapsedMs": 100041.504167,
+      "heapUsed": 13776696,
+      "rss": 135168000,
+      "external": 8852938
+    },
+    {
+      "stage": "soak",
+      "elapsedMs": 110040.660084,
+      "heapUsed": 13903792,
+      "rss": 137265152,
+      "external": 8992844
+    },
+    {
+      "stage": "soak",
+      "elapsedMs": 120041.174042,
+      "heapUsed": 13946008,
+      "rss": 137887744,
+      "external": 7853841
+    },
+    {
+      "stage": "finished",
+      "elapsedMs": 120046.453042,
+      "heapUsed": 14065016,
+      "rss": 138035200,
+      "external": 6201463
+    }
+  ],
+  "limitations": [
+    "One room and one local process; six overlay streams and one dashboard.",
+    "120s is a short soak, not an hours-long real Twitch broadcast.",
+    "Post-GC samples include V8/HTTP warmup; a finite soak cannot prove absence of leaks.",
+    "No rendering or native OBS/CEF performance is measured by this script."
+  ]
+}

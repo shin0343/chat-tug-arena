@@ -1,0 +1,112 @@
+{
+  "capturedAt": "2026-10-28T16:50:17.610Z",
+  "scope": "sanitized generation labels from performed browser regression; values removed",
+  "requests": [
+    {
+      "path": "/api/session",
+      "method": "GET",
+      "status": 200,
+      "requestCsrfGeneration": null,
+      "responseCsrfGeneration": 0,
+      "requestCookieGeneration": null,
+      "responseCookieGeneration": 0,
+      "state": "authorization_required"
+    },
+    {
+      "path": "/api/events",
+      "method": "GET",
+      "status": 200,
+      "requestCsrfGeneration": null,
+      "responseCsrfGeneration": null,
+      "requestCookieGeneration": 0,
+      "responseCookieGeneration": null
+    },
+    {
+      "path": "/api/commands",
+      "method": "POST",
+      "status": 200,
+      "requestCsrfGeneration": 0,
+      "responseCsrfGeneration": 0,
+      "requestCookieGeneration": 0,
+      "responseCookieGeneration": null,
+      "state": "authorization_required"
+    },
+    {
+      "path": "/api/commands",
+      "method": "POST",
+      "status": 200,
+      "requestCsrfGeneration": 0,
+      "responseCsrfGeneration": 0,
+      "requestCookieGeneration": 0,
+      "responseCookieGeneration": null,
+      "state": "authorization_required"
+    },
+    {
+      "path": "/api/session",
+      "method": "GET",
+      "status": 200,
+      "requestCsrfGeneration": null,
+      "responseCsrfGeneration": 0,
+      "requestCookieGeneration": 0,
+      "responseCookieGeneration": null,
+      "state": "authorization_required"
+    },
+    {
+      "path": "/api/twitch/disconnect",
+      "method": "POST",
+      "status": 200,
+      "requestCsrfGeneration": 0,
+      "responseCsrfGeneration": 1,
+      "requestCookieGeneration": 0,
+      "responseCookieGeneration": 1,
+      "state": "not_connected"
+    },
+    {
+      "path": "/api/session",
+      "method": "GET",
+      "status": 200,
+      "requestCsrfGeneration": null,
+      "responseCsrfGeneration": 2,
+      "requestCookieGeneration": 0,
+      "responseCookieGeneration": 2,
+      "state": "authorization_required"
+    },
+    {
+      "path": "/api/events",
+      "method": "GET",
+      "status": 200,
+      "requestCsrfGeneration": null,
+      "responseCsrfGeneration": null,
+      "requestCookieGeneration": 2,
+      "responseCookieGeneration": null
+    },
+    {
+      "path": "/api/simulation/start",
+      "method": "POST",
+      "status": 403,
+      "requestCsrfGeneration": 2,
+      "responseCsrfGeneration": null,
+      "requestCookieGeneration": 1,
+      "responseCookieGeneration": null
+    },
+    {
+      "path": "/api/session",
+      "method": "GET",
+      "status": 200,
+      "requestCsrfGeneration": null,
+      "responseCsrfGeneration": 1,
+      "requestCookieGeneration": 1,
+      "responseCookieGeneration": null,
+      "state": "not_connected"
+    },
+    {
+      "path": "/api/events",
+      "method": "GET",
+      "status": 200,
+      "requestCsrfGeneration": null,
+      "responseCsrfGeneration": null,
+      "requestCookieGeneration": 1,
+      "responseCookieGeneration": null
+    }
+  ]
+}

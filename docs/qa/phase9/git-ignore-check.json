@@ -1,0 +1,73 @@
+{
+  "capturedAt": "2026-10-28T14:39:34.809Z",
+  "scope": "Actual Git in disposable empty repository; no project git init/staging/commit/push",
+  "checks": [
+    {
+      "path": ".env",
+      "ignored": true,
+      "expected": true,
+      "result": "PASS"
+    },
+    {
+      "path": ".env.production",
+      "ignored": true,
+      "expected": true,
+      "result": "PASS"
+    },
+    {
+      "path": ".env.backup",
+      "ignored": true,
+      "expected": true,
+      "result": "PASS"
+    },
+    {
+      "path": ".env.example",
+      "ignored": false,
+      "expected": false,
+      "result": "PASS"
+    },
+    {
+      "path": "apps/realtime/.data/sessions.enc",
+      "ignored": true,
+      "expected": true,
+      "result": "PASS"
+    },
+    {
+      "path": ".local-evidence/live.webm",
+      "ignored": true,
+      "expected": true,
+      "result": "PASS"
+    },
+    {
+      "path": "docs/qa/phase7/regression/motion/raw/page.webm",
+      "ignored": true,
+      "expected": true,
+      "result": "PASS"
+    },
+    {
+      "path": "docs/qa/phase7/regression/motion/consequence-overlay.webm",
+      "ignored": false,
+      "expected": false,
+      "result": "PASS"
+    },
+    {
+      "path": "docs/qa/phase7/regression/result-desktop.png",
+      "ignored": false,
+      "expected": false,
+      "result": "PASS"
+    },
+    {
+      "path": "apps/realtime/src/server.ts",
+      "ignored": false,
+      "expected": false,
+      "result": "PASS"
+    },
+    {
+      "path": "apps/web/public/licenses/dm-sans-OFL.txt",
+      "ignored": false,
+      "expected": false,
+      "result": "PASS"
+    }
+  ],
+  "privateEnvMode": "600"
+}

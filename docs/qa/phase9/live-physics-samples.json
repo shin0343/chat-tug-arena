@@ -1,0 +1,225 @@
+{
+  "scope": "Genuine Twitch commands in the authorized broadcaster session; no simulated/test-input actions used. Viewer identities omitted.",
+  "samples": [
+    {
+      "capturedAt": "2026-10-28T17:18:02.850Z",
+      "label": "coral-complete",
+      "source": "actual Twitch; native browser Mechanics lab read-only observation",
+      "position": -0.0793,
+      "velocity": 0,
+      "momentum": 0,
+      "tick": 6265,
+      "clock": "00:00",
+      "forces": [
+        0,
+        0
+      ],
+      "uniqueViewers": [
+        1,
+        0
+      ],
+      "appliedPulls": [
+        1,
+        0
+      ],
+      "decisions": [
+        "coral Applied ×1 13.6 s"
+      ]
+    },
+    {
+      "capturedAt": "2026-10-28T17:20:10.721Z",
+      "label": "mint-rematch-reset",
+      "source": "actual Twitch; native browser Mechanics lab read-only observation",
+      "position": 0,
+      "velocity": 0,
+      "momentum": 0,
+      "tick": 140,
+      "clock": null,
+      "forces": [
+        0,
+        0
+      ],
+      "uniqueViewers": [
+        0,
+        0
+      ],
+      "appliedPulls": [
+        0,
+        0
+      ],
+      "decisions": [],
+      "clockNote": "Clock label unavailable during countdown; no clock value inferred."
+    },
+    {
+      "capturedAt": "2026-10-28T17:20:30.631Z",
+      "label": "!mint-sample-0",
+      "source": "actual Twitch; native browser Mechanics lab read-only observation",
+      "position": 0.0708,
+      "velocity": 0.005,
+      "momentum": 0.0044,
+      "tick": 1145,
+      "clock": "01:11",
+      "forces": [
+        0,
+        0.052
+      ],
+      "uniqueViewers": [
+        0,
+        1
+      ],
+      "appliedPulls": [
+        0,
+        1
+      ],
+      "decisions": [
+        "mint Applied ×1 15.4 s"
+      ]
+    },
+    {
+      "capturedAt": "2026-10-28T17:20:32.871Z",
+      "label": "!mint-sample-1",
+      "source": "actual Twitch; native browser Mechanics lab read-only observation",
+      "position": 0.0771,
+      "velocity": 0.0013,
+      "momentum": 0.0013,
+      "tick": 1250,
+      "clock": "01:08",
+      "forces": [
+        0,
+        0.015
+      ],
+      "uniqueViewers": [
+        0,
+        1
+      ],
+      "appliedPulls": [
+        0,
+        1
+      ],
+      "decisions": [
+        "mint Applied ×1 15.4 s"
+      ]
+    },
+    {
+      "capturedAt": "2026-10-28T17:20:35.214Z",
+      "label": "!mint-sample-2",
+      "source": "actual Twitch; native browser Mechanics lab read-only observation",
+      "position": 0.0787,
+      "velocity": 0.0003,
+      "momentum": 0.0003,
+      "tick": 1365,
+      "clock": "01:06",
+      "forces": [
+        0,
+        0.004
+      ],
+      "uniqueViewers": [
+        0,
+        1
+      ],
+      "appliedPulls": [
+        0,
+        1
+      ],
+      "decisions": [
+        "mint Applied ×1 15.4 s"
+      ]
+    },
+    {
+      "capturedAt": "2026-10-28T17:23:48.864Z",
+      "label": "fairness-rematch-reset",
+      "source": "actual Twitch; native browser Mechanics lab read-only observation",
+      "position": 0,
+      "velocity": 0,
+      "momentum": 0,
+      "tick": 30,
+      "clock": null,
+      "forces": [
+        0,
+        0
+      ],
+      "uniqueViewers": [
+        0,
+        0
+      ],
+      "appliedPulls": [
+        0,
+        0
+      ],
+      "decisions": []
+    },
+    {
+      "capturedAt": "2026-10-28T17:28:11.432Z",
+      "label": "fairness-rematch-reset",
+      "source": "actual Twitch; native browser Mechanics lab read-only observation",
+      "position": 0,
+      "velocity": 0,
+      "momentum": 0,
+      "tick": 30,
+      "clock": null,
+      "forces": [
+        0,
+        0
+      ],
+      "uniqueViewers": [
+        0,
+        0
+      ],
+      "appliedPulls": [
+        0,
+        0
+      ],
+      "decisions": []
+    },
+    {
+      "capturedAt": "2026-10-28T19:35:22.056Z",
+      "label": "fairness-rematch-reset",
+      "source": "actual Twitch; native browser Mechanics lab read-only observation",
+      "position": 0,
+      "velocity": 0,
+      "momentum": 0,
+      "tick": 25,
+      "clock": null,
+      "forces": [
+        0,
+        0
+      ],
+      "uniqueViewers": [
+        0,
+        0
+      ],
+      "appliedPulls": [
+        0,
+        0
+      ],
+      "decisions": []
+    },
+    {
+      "capturedAt": "2026-10-28T19:36:00.217Z",
+      "label": "fairness-after-real-messages",
+      "source": "actual Twitch; native browser Mechanics lab read-only observation",
+      "position": 0.1454,
+      "velocity": 0.0077,
+      "momentum": 0.0077,
+      "tick": 1940,
+      "clock": "00:55",
+      "forces": [
+        0,
+        0.091
+      ],
+      "uniqueViewers": [
+        0,
+        1
+      ],
+      "appliedPulls": [
+        0,
+        2
+      ],
+      "decisions": [
+        "mint Applied ×1 32.2 s",
+        "coral team locked 21.2 s",
+        "mint Applied ×1 9.5 s"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "streamer-journey",
+    "duration": "10.720000",
+    "size": "824451",
+    "video": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 890
+    }
+  },
+  {
+    "name": "consequence-overlay",
+    "duration": "11.440000",
+    "size": "393044",
+    "video": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720
+    }
+  }
+]

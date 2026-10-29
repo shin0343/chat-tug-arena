@@ -1,0 +1,52 @@
+{
+  "capturedAt": "2026-10-28T20:13:02.199Z",
+  "documents": [
+    "docs/DEMO_SCRIPT.md",
+    "docs/DEVPOST_SUBMISSION.md",
+    "docs/CODEX_USAGE_SUMMARY.md"
+  ],
+  "implementationChecks": [
+    {
+      "claim": "OAuth authorization code + user:read:chat",
+      "source": "apps/realtime/src/twitch-api.ts and packages/contracts/src/connection.ts",
+      "verified": true
+    },
+    {
+      "claim": "channel.chat.message v1 WebSocket subscription for broadcaster self",
+      "source": "apps/realtime/src/twitch-api.ts",
+      "verified": true
+    },
+    {
+      "claim": "20ms physics, decay, distinct-user combos, winner",
+      "source": "apps/realtime/src/game/engine.ts and tuning.ts",
+      "verified": true
+    },
+    {
+      "claim": "Consequence, commitment, rematch",
+      "source": "apps/realtime/src/game/showdowns.ts and server.ts",
+      "verified": true
+    },
+    {
+      "claim": "Original rig + read-only interpolated scene",
+      "source": "apps/web/src/components/scene and lib/scene",
+      "verified": true
+    }
+  ],
+  "unverifiedClaims": [
+    "Native OBS/CEF",
+    "Real game action taken",
+    "Actual final video duration/public visibility",
+    "Adoption/engagement/winning probability"
+  ],
+  "decision": "Implementation claims and genuine one-account execution are supported. Keep multi-user, native OBS, external game change and final video claims conditional until verified.",
+  "actualLiveVerification": {
+    "status": "PASS_SCOPED",
+    "participatingAccounts": 1,
+    "evidence": "LIVE_TWITCH_TEST.md and qa/phase9/live-input-observations.json",
+    "limits": [
+      "Genuine multi-user combo/comeback",
+      "Native OBS",
+      "Provider redelivery/credential lifecycle/long soak"
+    ]
+  }
+}

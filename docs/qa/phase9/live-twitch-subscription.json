@@ -1,0 +1,51 @@
+{
+  "capturedAt": "2026-10-28T20:10:11.259Z",
+  "configuration": {
+    "APP_ORIGIN": "PRESENT",
+    "TWITCH_CLIENT_ID": "PRESENT",
+    "TWITCH_CLIENT_SECRET": "PRESENT",
+    "SESSION_ENCRYPTION_KEY": "PRESENT",
+    "TWITCH_REDIRECT_URI": "PRESENT",
+    "REALTIME_HOST": "PRESENT",
+    "REALTIME_PORT": "PRESENT",
+    "REALTIME_INTERNAL_URL": "PRESENT",
+    "DATA_DIRECTORY": "PRESENT"
+  },
+  "envMode": "600",
+  "callback": "http://localhost:3000/api/auth/twitch/callback",
+  "origin": "http://localhost:3000",
+  "scope": [
+    "user:read:chat"
+  ],
+  "oauth": "PASS",
+  "eventSub": "PASS",
+  "chatMessages": "NOT_MEASURED_BY_THIS_CHECK",
+  "nativeOBS": "BLOCKED",
+  "subjectMatchesBroadcaster": true,
+  "subscriptionListHTTP": 200,
+  "matchingChatSubscriptions": 3,
+  "enabledSelfSubscriptions": 1,
+  "checks": [
+    {
+      "capturedAt": "2026-10-28T16:45:43.886Z",
+      "oauth": "PASS",
+      "eventSub": "FAIL",
+      "enabledSelfSubscriptions": 0,
+      "observation": "Before release-fix restart; a previous actual enabled subscription was no longer listed."
+    },
+    {
+      "capturedAt": "2026-10-28T16:56:34.070Z",
+      "oauth": "PASS",
+      "eventSub": "PASS",
+      "enabledSelfSubscriptions": 1,
+      "observation": "After rebuilt backend startup using existing encrypted broadcaster authorization; no new OAuth grant or app was created."
+    },
+    {
+      "capturedAt": "2026-10-28T20:10:11.259Z",
+      "oauth": "PASS",
+      "eventSub": "PASS",
+      "enabledSelfSubscriptions": 1,
+      "observation": "Final read-only provider validation and subscription list; no token refresh, OAuth grant, chat send or subscription mutation."
+    }
+  ]
+}

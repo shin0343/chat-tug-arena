@@ -1,0 +1,9 @@
+
+ RUN  v4.1.12 /Users/sjh/Hackaton & Contest/twitch-codex-plugin-hackaton
+
+
+ Test Files  4 passed (4)
+      Tests  42 passed (42)
+   Start at  07:39:37
+   Duration  4.72s (transform 349ms, setup 0ms, import 537ms, tests 4.50s, environment 0ms)
+

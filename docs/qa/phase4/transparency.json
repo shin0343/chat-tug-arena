@@ -1,0 +1,12 @@
+{
+  "source": "docs/qa/phase4/idle-1920.png",
+  "sample": {
+    "x": 0,
+    "y": 0,
+    "width": 1920,
+    "height": 450
+  },
+  "minimumAlpha": 0,
+  "maximumAlpha": 0,
+  "pixelsWithAlpha": 0
+}

@@ -1,0 +1,2489 @@
+{
+  "pass": "after",
+  "completed": true,
+  "source": "Actual running production browser; disclosed local simulation for game states; OAuth fixture files are explicitly labeled UI coverage",
+  "captures": [
+    {
+      "name": "landing-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1312,
+        "elements": [
+          {
+            "selector": ".game-art",
+            "x": 636.875,
+            "y": 430.703125,
+            "width": 742.125,
+            "height": 125.21875,
+            "fontSize": "15px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "landing-390",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "path": "/",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 1849,
+        "elements": [
+          {
+            "selector": ".game-art",
+            "x": 21,
+            "y": 808.03125,
+            "width": 348,
+            "height": 58.71875,
+            "fontSize": "15px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "landing-full-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1312,
+        "elements": [
+          {
+            "selector": ".game-art",
+            "x": 636.875,
+            "y": 430.703125,
+            "width": 742.125,
+            "height": 125.21875,
+            "fontSize": "15px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "setup-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/setup",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1559,
+        "elements": [
+          {
+            "selector": ".connection-privacy",
+            "x": 293,
+            "y": 850.796875,
+            "width": 508.90625,
+            "height": 40.78125,
+            "fontSize": "12px"
+          },
+          {
+            "selector": ".field label",
+            "x": 262,
+            "y": 1052.0625,
+            "width": 277.453125,
+            "height": 21.6875,
+            "fontSize": "14px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "setup-390",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "path": "/setup",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 2489,
+        "elements": [
+          {
+            "selector": ".connection-privacy",
+            "x": 41,
+            "y": 945.765625,
+            "width": 308,
+            "height": 61.171875,
+            "fontSize": "12px"
+          },
+          {
+            "selector": ".field label",
+            "x": 20,
+            "y": 1185.109375,
+            "width": 350,
+            "height": 21.6875,
+            "fontSize": "14px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "dashboard-empty-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1473,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 249,
+            "y": 757.421875,
+            "width": 870,
+            "height": 146.8125,
+            "fontSize": "15px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "dashboard-empty-390",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "path": "/dashboard",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 2557,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 0,
+            "y": 68,
+            "width": 390,
+            "height": 58,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 16,
+            "y": 153,
+            "width": 358,
+            "height": 127.640625,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 17,
+            "y": 965.921875,
+            "width": 356,
+            "height": 60.0625,
+            "fontSize": "15px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "configuration-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard/round",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1462,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 927.890625,
+            "y": 408.5625,
+            "width": 479.09375,
+            "height": 80.84375,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".field label",
+            "x": 277,
+            "y": 232.25,
+            "width": 592.890625,
+            "height": 21.6875,
+            "fontSize": "14px"
+          },
+          {
+            "selector": ".showdown-setup .form-save",
+            "x": 277,
+            "y": 1288.984375,
+            "width": 592.890625,
+            "height": 63,
+            "fontSize": "15px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "configuration-390",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "path": "/dashboard/round",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 2477,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 0,
+            "y": 68,
+            "width": 390,
+            "height": 58,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 16,
+            "y": 153,
+            "width": 358,
+            "height": 86.890625,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 17,
+            "y": 1975.296875,
+            "width": 356,
+            "height": 60.0625,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".field label",
+            "x": 35,
+            "y": 285.890625,
+            "width": 320,
+            "height": 21.6875,
+            "fontSize": "14px"
+          },
+          {
+            "selector": ".showdown-setup .form-save",
+            "x": 35,
+            "y": 1634.359375,
+            "width": 320,
+            "height": 99.59375,
+            "fontSize": "15px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "configuration-full-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard/round",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1462,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 927.890625,
+            "y": 408.5625,
+            "width": 479.09375,
+            "height": 80.84375,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".field label",
+            "x": 277,
+            "y": 232.25,
+            "width": 592.890625,
+            "height": 21.6875,
+            "fontSize": "14px"
+          },
+          {
+            "selector": ".showdown-setup .form-save",
+            "x": 277,
+            "y": 1288.984375,
+            "width": 592.890625,
+            "height": 63,
+            "fontSize": "15px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "connection-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard/connection",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1475,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".connection-privacy",
+            "x": 279,
+            "y": 758.046875,
+            "width": 614.828125,
+            "height": 40.78125,
+            "fontSize": "12px"
+          },
+          {
+            "selector": ".field label",
+            "x": 248,
+            "y": 959.3125,
+            "width": 330.40625,
+            "height": 21.6875,
+            "fontSize": "14px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "connection-390",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "path": "/dashboard/connection",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 2514,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 0,
+            "y": 68,
+            "width": 390,
+            "height": 58,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 16,
+            "y": 153,
+            "width": 358,
+            "height": 86.890625,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".connection-privacy",
+            "x": 37,
+            "y": 915.71875,
+            "width": 316,
+            "height": 61.171875,
+            "fontSize": "12px"
+          },
+          {
+            "selector": ".field label",
+            "x": 16,
+            "y": 1155.0625,
+            "width": 358,
+            "height": 21.6875,
+            "fontSize": "14px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "obs-setup-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard/overlay",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1066,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".obs-instructions li p",
+            "x": 1047.078125,
+            "y": 278.734375,
+            "width": 360.921875,
+            "height": 47.59375,
+            "fontSize": "14px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "obs-setup-390",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "path": "/dashboard/overlay",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 1621,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 0,
+            "y": 68,
+            "width": 390,
+            "height": 58,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 16,
+            "y": 153,
+            "width": 358,
+            "height": 86.890625,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".obs-instructions li p",
+            "x": 41,
+            "y": 339.375,
+            "width": 333,
+            "height": 47.59375,
+            "fontSize": "14px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "obs-setup-full-390",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "path": "/dashboard/overlay",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 1621,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 0,
+            "y": 68,
+            "width": 390,
+            "height": 58,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 16,
+            "y": 153,
+            "width": 358,
+            "height": 86.890625,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".obs-instructions li p",
+            "x": 41,
+            "y": 339.375,
+            "width": 333,
+            "height": 47.59375,
+            "fontSize": "14px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "history-empty-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard/history",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1000,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "history-empty-390",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "path": "/dashboard/history",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 844,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 0,
+            "y": 68,
+            "width": 390,
+            "height": 58,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 16,
+            "y": 153,
+            "width": 358,
+            "height": 150.890625,
+            "fontSize": "15px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "configuration-error-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard/round",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1525,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": -462,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": -355,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 927.890625,
+            "y": 229.3125,
+            "width": 479.09375,
+            "height": 80.84375,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".field label",
+            "x": 277,
+            "y": -229.75,
+            "width": 592.890625,
+            "height": 21.6875,
+            "fontSize": "14px"
+          },
+          {
+            "selector": ".showdown-setup .form-save",
+            "x": 277,
+            "y": 826.984375,
+            "width": 592.890625,
+            "height": 63,
+            "fontSize": "15px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "overlay-idle-1920",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "path": "/overlay",
+      "geometry": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "height": 1080,
+        "scrollHeight": 1080,
+        "elements": [
+          {
+            "selector": ".broadcast-scoreboard",
+            "x": 96,
+            "y": 510.390625,
+            "width": 1728,
+            "height": 187.796875,
+            "fontSize": "19.2px"
+          },
+          {
+            "selector": ".broadcast-clock",
+            "x": 811.203125,
+            "y": 510.390625,
+            "width": 297.59375,
+            "height": 167.03125,
+            "fontSize": "19.2px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 96,
+            "y": 684.75,
+            "width": 1728,
+            "height": 291.59375,
+            "fontSize": "19.2px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ready-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1611,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 249,
+            "y": 733.421875,
+            "width": 870,
+            "height": 146.8125,
+            "fontSize": "15px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "overlay-countdown-1920",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "path": "/overlay",
+      "geometry": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "height": 1080,
+        "scrollHeight": 1080,
+        "elements": [
+          {
+            "selector": ".broadcast-scoreboard",
+            "x": 96,
+            "y": 510.390625,
+            "width": 1728,
+            "height": 187.796875,
+            "fontSize": "19.2px"
+          },
+          {
+            "selector": ".broadcast-clock",
+            "x": 811.203125,
+            "y": 510.390625,
+            "width": 297.59375,
+            "height": 167.03125,
+            "fontSize": "19.2px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 96,
+            "y": 684.75,
+            "width": 1728,
+            "height": 291.59375,
+            "fontSize": "19.2px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "countdown-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1592,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 249,
+            "y": 714.234375,
+            "width": 870,
+            "height": 146.8125,
+            "fontSize": "15px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "overlay-combo-1920",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "path": "/overlay",
+      "geometry": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "height": 1080,
+        "scrollHeight": 1080,
+        "elements": [
+          {
+            "selector": ".broadcast-scoreboard",
+            "x": 96,
+            "y": 510.390625,
+            "width": 1728,
+            "height": 187.796875,
+            "fontSize": "19.2px"
+          },
+          {
+            "selector": ".broadcast-clock",
+            "x": 811.203125,
+            "y": 510.390625,
+            "width": 297.59375,
+            "height": 167.03125,
+            "fontSize": "19.2px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 96,
+            "y": 684.75,
+            "width": 1728,
+            "height": 291.59375,
+            "fontSize": "19.2px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "active-combo-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1592,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 249,
+            "y": 714.234375,
+            "width": 870,
+            "height": 146.8125,
+            "fontSize": "15px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "overlay-winner-1920",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "path": "/overlay",
+      "geometry": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "height": 1080,
+        "scrollHeight": 1080,
+        "elements": [
+          {
+            "selector": ".broadcast-scoreboard",
+            "x": 96,
+            "y": 474.4375,
+            "width": 1728,
+            "height": 187.796875,
+            "fontSize": "19.2px"
+          },
+          {
+            "selector": ".broadcast-clock",
+            "x": 811.203125,
+            "y": 474.4375,
+            "width": 297.59375,
+            "height": 167.03125,
+            "fontSize": "19.2px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 96,
+            "y": 648.796875,
+            "width": 1728,
+            "height": 291.59375,
+            "fontSize": "19.2px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "overlay-result-1920",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "path": "/overlay",
+      "geometry": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "height": 1080,
+        "scrollHeight": 1080,
+        "elements": [
+          {
+            "selector": ".broadcast-scoreboard",
+            "x": 96,
+            "y": 474.4375,
+            "width": 1728,
+            "height": 187.796875,
+            "fontSize": "19.2px"
+          },
+          {
+            "selector": ".broadcast-clock",
+            "x": 811.203125,
+            "y": 474.4375,
+            "width": 297.59375,
+            "height": 167.03125,
+            "fontSize": "19.2px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 96,
+            "y": 648.796875,
+            "width": 1728,
+            "height": 291.59375,
+            "fontSize": "19.2px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "result-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1882,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".consequence-card",
+            "x": 273,
+            "y": 465.0625,
+            "width": 822,
+            "height": 217.265625,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 249,
+            "y": 966.6875,
+            "width": 870,
+            "height": 146.8125,
+            "fontSize": "15px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "result-390",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "path": "/dashboard",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 2928,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 0,
+            "y": 68,
+            "width": 390,
+            "height": 58,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 16,
+            "y": 153,
+            "width": 358,
+            "height": 0,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".consequence-card",
+            "x": 33,
+            "y": 411.921875,
+            "width": 324,
+            "height": 294.140625,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 17,
+            "y": 974.359375,
+            "width": 356,
+            "height": 60.0625,
+            "fontSize": "15px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "overlay-result-1280",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "path": "/overlay",
+      "geometry": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "height": 720,
+        "scrollHeight": 720,
+        "elements": [
+          {
+            "selector": ".broadcast-scoreboard",
+            "x": 64,
+            "y": 315.984375,
+            "width": 1152,
+            "height": 125.515625,
+            "fontSize": "12.8px"
+          },
+          {
+            "selector": ".broadcast-clock",
+            "x": 540.796875,
+            "y": 315.984375,
+            "width": 198.390625,
+            "height": 111.359375,
+            "fontSize": "12.8px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 64,
+            "y": 432.546875,
+            "width": 1152,
+            "height": 194.390625,
+            "fontSize": "12.8px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "committed-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1839,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".consequence-card",
+            "x": 273,
+            "y": 465.0625,
+            "width": 822,
+            "height": 192.953125,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 249,
+            "y": 923.1875,
+            "width": 870,
+            "height": 146.8125,
+            "fontSize": "15px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "history-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard/history",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1000,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "overlay-balanced-1920",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "path": "/overlay",
+      "geometry": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "height": 1080,
+        "scrollHeight": 1080,
+        "elements": [
+          {
+            "selector": ".broadcast-scoreboard",
+            "x": 96,
+            "y": 510.390625,
+            "width": 1728,
+            "height": 187.796875,
+            "fontSize": "19.2px"
+          },
+          {
+            "selector": ".broadcast-clock",
+            "x": 811.203125,
+            "y": 510.390625,
+            "width": 297.59375,
+            "height": 167.03125,
+            "fontSize": "19.2px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 96,
+            "y": 684.75,
+            "width": 1728,
+            "height": 291.59375,
+            "fontSize": "19.2px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "overlay-coral-lead-1920",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "path": "/overlay",
+      "geometry": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "height": 1080,
+        "scrollHeight": 1080,
+        "elements": [
+          {
+            "selector": ".broadcast-scoreboard",
+            "x": 96,
+            "y": 509.140625,
+            "width": 1728,
+            "height": 189.046875,
+            "fontSize": "19.2px"
+          },
+          {
+            "selector": ".broadcast-clock",
+            "x": 811.203125,
+            "y": 509.140625,
+            "width": 297.59375,
+            "height": 167.03125,
+            "fontSize": "19.2px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 96,
+            "y": 684.75,
+            "width": 1728,
+            "height": 291.59375,
+            "fontSize": "19.2px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "overlay-reversal-1920",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "path": "/overlay",
+      "geometry": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "height": 1080,
+        "scrollHeight": 1080,
+        "elements": [
+          {
+            "selector": ".broadcast-scoreboard",
+            "x": 96,
+            "y": 509.140625,
+            "width": 1728,
+            "height": 189.046875,
+            "fontSize": "19.2px"
+          },
+          {
+            "selector": ".broadcast-clock",
+            "x": 811.203125,
+            "y": 509.140625,
+            "width": 297.59375,
+            "height": 167.03125,
+            "fontSize": "19.2px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 96,
+            "y": 684.75,
+            "width": 1728,
+            "height": 291.59375,
+            "fontSize": "19.2px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "paused-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1649,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 249,
+            "y": 733.421875,
+            "width": 870,
+            "height": 146.8125,
+            "fontSize": "15px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "paused-390",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "path": "/dashboard",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 2365,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 0,
+            "y": 68,
+            "width": 390,
+            "height": 58,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 16,
+            "y": 153,
+            "width": 358,
+            "height": 0,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 17,
+            "y": 687.625,
+            "width": 356,
+            "height": 60.0625,
+            "fontSize": "15px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "overlay-disconnected-1920",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "path": "/overlay",
+      "geometry": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "height": 1080,
+        "scrollHeight": 1080,
+        "elements": [
+          {
+            "selector": ".broadcast-scoreboard",
+            "x": 96,
+            "y": 510.390625,
+            "width": 1728,
+            "height": 187.796875,
+            "fontSize": "19.2px"
+          },
+          {
+            "selector": ".broadcast-clock",
+            "x": 811.203125,
+            "y": 510.390625,
+            "width": 297.59375,
+            "height": 167.03125,
+            "fontSize": "19.2px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 96,
+            "y": 684.75,
+            "width": 1728,
+            "height": 291.59375,
+            "fontSize": "19.2px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "overlay-comeback-1920",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "path": "/overlay",
+      "geometry": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "height": 1080,
+        "scrollHeight": 1080,
+        "elements": [
+          {
+            "selector": ".broadcast-scoreboard",
+            "x": 96,
+            "y": 509.140625,
+            "width": 1728,
+            "height": 189.046875,
+            "fontSize": "19.2px"
+          },
+          {
+            "selector": ".broadcast-clock",
+            "x": 811.203125,
+            "y": 509.140625,
+            "width": 297.59375,
+            "height": 167.03125,
+            "fontSize": "19.2px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 96,
+            "y": 684.75,
+            "width": 1728,
+            "height": 291.59375,
+            "fontSize": "19.2px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "server-error-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard/connection",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1220,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".connection-privacy",
+            "x": 279,
+            "y": 821.640625,
+            "width": 614.828125,
+            "height": 40.78125,
+            "fontSize": "12px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "oauth-invalid-return-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard/connection",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1942,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".connection-privacy",
+            "x": 279,
+            "y": 763.171875,
+            "width": 614.828125,
+            "height": 20.390625,
+            "fontSize": "12px"
+          },
+          {
+            "selector": ".field label",
+            "x": 248,
+            "y": 1000.828125,
+            "width": 330.40625,
+            "height": 21.6875,
+            "fontSize": "14px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "loading-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard/connection",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1220,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".connection-privacy",
+            "x": 279,
+            "y": 780.609375,
+            "width": 614.828125,
+            "height": 40.78125,
+            "fontSize": "12px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "oauth-fixture-not_connected-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard/connection",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1420,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".connection-privacy",
+            "x": 279,
+            "y": 723.359375,
+            "width": 614.828125,
+            "height": 20.390625,
+            "fontSize": "12px"
+          },
+          {
+            "selector": ".field label",
+            "x": 248,
+            "y": 904.234375,
+            "width": 330.40625,
+            "height": 21.6875,
+            "fontSize": "14px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "oauth-fixture-connecting-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard/connection",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1529,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".connection-privacy",
+            "x": 279,
+            "y": 832.734375,
+            "width": 614.828125,
+            "height": 20.390625,
+            "fontSize": "12px"
+          },
+          {
+            "selector": ".field label",
+            "x": 248,
+            "y": 1013.609375,
+            "width": 330.40625,
+            "height": 21.6875,
+            "fontSize": "14px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "oauth-fixture-authorization_required-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard/connection",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1396,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".connection-privacy",
+            "x": 279,
+            "y": 700.109375,
+            "width": 614.828125,
+            "height": 20.390625,
+            "fontSize": "12px"
+          },
+          {
+            "selector": ".field label",
+            "x": 248,
+            "y": 880.984375,
+            "width": 330.40625,
+            "height": 21.6875,
+            "fontSize": "14px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "oauth-fixture-connected-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard/connection",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1529,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".connection-privacy",
+            "x": 279,
+            "y": 832.734375,
+            "width": 614.828125,
+            "height": 20.390625,
+            "fontSize": "12px"
+          },
+          {
+            "selector": ".field label",
+            "x": 248,
+            "y": 1013.609375,
+            "width": 330.40625,
+            "height": 21.6875,
+            "fontSize": "14px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "oauth-fixture-connected-390",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "path": "/dashboard/connection",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 2629,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 0,
+            "y": 68,
+            "width": 390,
+            "height": 58,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 16,
+            "y": 153,
+            "width": 358,
+            "height": 86.890625,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".connection-privacy",
+            "x": 37,
+            "y": 997.0625,
+            "width": 316,
+            "height": 40.78125,
+            "fontSize": "12px"
+          },
+          {
+            "selector": ".field label",
+            "x": 16,
+            "y": 1216.015625,
+            "width": 358,
+            "height": 21.6875,
+            "fontSize": "14px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "oauth-fixture-reconnecting-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard/connection",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1590,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".connection-privacy",
+            "x": 279,
+            "y": 893.421875,
+            "width": 614.828125,
+            "height": 20.390625,
+            "fontSize": "12px"
+          },
+          {
+            "selector": ".field label",
+            "x": 248,
+            "y": 1074.296875,
+            "width": 330.40625,
+            "height": 21.6875,
+            "fontSize": "14px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "oauth-fixture-reconnecting-390",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "path": "/dashboard/connection",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 2760,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 0,
+            "y": 68,
+            "width": 390,
+            "height": 58,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 16,
+            "y": 153,
+            "width": 358,
+            "height": 86.890625,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".connection-privacy",
+            "x": 37,
+            "y": 1094.46875,
+            "width": 316,
+            "height": 40.78125,
+            "fontSize": "12px"
+          },
+          {
+            "selector": ".field label",
+            "x": 16,
+            "y": 1313.421875,
+            "width": 358,
+            "height": 21.6875,
+            "fontSize": "14px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "oauth-fixture-authorization_expired-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard/connection",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1498,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".connection-privacy",
+            "x": 279,
+            "y": 801.828125,
+            "width": 614.828125,
+            "height": 20.390625,
+            "fontSize": "12px"
+          },
+          {
+            "selector": ".field label",
+            "x": 248,
+            "y": 982.703125,
+            "width": 330.40625,
+            "height": 21.6875,
+            "fontSize": "14px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "oauth-fixture-authorization_expired-390",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "path": "/dashboard/connection",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 2574,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 0,
+            "y": 68,
+            "width": 390,
+            "height": 58,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 16,
+            "y": 153,
+            "width": 358,
+            "height": 86.890625,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".connection-privacy",
+            "x": 37,
+            "y": 961.84375,
+            "width": 316,
+            "height": 40.78125,
+            "fontSize": "12px"
+          },
+          {
+            "selector": ".field label",
+            "x": 16,
+            "y": 1180.796875,
+            "width": 358,
+            "height": 21.6875,
+            "fontSize": "14px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "oauth-fixture-connection_failed-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard/connection",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1479,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".connection-privacy",
+            "x": 279,
+            "y": 782.484375,
+            "width": 614.828125,
+            "height": 20.390625,
+            "fontSize": "12px"
+          },
+          {
+            "selector": ".field label",
+            "x": 248,
+            "y": 963.359375,
+            "width": 330.40625,
+            "height": 21.6875,
+            "fontSize": "14px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "oauth-fixture-simulation-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "path": "/dashboard/connection",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1420,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".connection-privacy",
+            "x": 279,
+            "y": 723.359375,
+            "width": 614.828125,
+            "height": 20.390625,
+            "fontSize": "12px"
+          },
+          {
+            "selector": ".field label",
+            "x": 248,
+            "y": 904.234375,
+            "width": 330.40625,
+            "height": 21.6875,
+            "fontSize": "14px"
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "loadingRecapturedAt": "2026-10-28T04:37:38.690Z"
+}

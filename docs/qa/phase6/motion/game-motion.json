@@ -1,0 +1,84 @@
+{
+  "method": "Actual server inputs and public SSE; fixed viewport; no screenshot calls or capture background overrides",
+  "stages": [
+    {
+      "label": "balanced combo",
+      "state": "ACTIVE",
+      "position": 0,
+      "velocity": 0,
+      "viewers": 6,
+      "combos": {
+        "coral": 1,
+        "mint": 1
+      }
+    },
+    {
+      "label": "coral lead",
+      "state": "ACTIVE",
+      "position": -0.11731230130733399,
+      "velocity": -0.46300314581627805,
+      "viewers": 16,
+      "combos": {
+        "coral": 3,
+        "mint": 1
+      }
+    },
+    {
+      "label": "momentum reversal",
+      "state": "ACTIVE",
+      "position": -0.1540864787878915,
+      "velocity": 0.09573876587759027,
+      "viewers": 40,
+      "combos": {
+        "coral": 3,
+        "mint": 3
+      }
+    },
+    {
+      "label": "mint lead",
+      "state": "ACTIVE",
+      "position": 0.12900381438937542,
+      "velocity": 0.7,
+      "viewers": 40,
+      "combos": {
+        "coral": 3,
+        "mint": 3
+      }
+    },
+    {
+      "label": "paused",
+      "state": "PAUSED",
+      "position": 0.560395717703382,
+      "velocity": 0.674507816530069,
+      "viewers": 40,
+      "combos": {
+        "coral": 3,
+        "mint": 3
+      }
+    },
+    {
+      "label": "resumed",
+      "state": "ACTIVE",
+      "position": 0.9128428012464862,
+      "velocity": 0.5380291166914667,
+      "viewers": 40,
+      "combos": {
+        "coral": 3,
+        "mint": 3
+      }
+    }
+  ],
+  "programs": [],
+  "stream_groups": [],
+  "streams": [
+    {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "format": {
+    "duration": "8.480000",
+    "size": "413715"
+  }
+}

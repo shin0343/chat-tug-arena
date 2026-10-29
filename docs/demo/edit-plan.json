@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "project": "Chat Tug Arena",
+  "status": "DRAFT_BLOCKED_MISSING_AUTHENTIC_FOOTAGE",
+  "targetDurationSeconds": 167,
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "actualExportPath": null,
+    "measuredDurationSeconds": null,
+    "approvedForExport": false
+  },
+  "identitySource": "DESIGN.md and apps/web/src/app/tokens.css",
+  "script": "docs/DEMO_SCRIPT.md",
+  "captionDraft": "docs/demo/captions-draft.srt",
+  "verifiedRepositoryUrl": null,
+  "principalCodexSessionId": null,
+  "verifiedPublicYouTubeUrl": null,
+  "segments": [
+    {
+      "id": "T01",
+      "startSeconds": 0,
+      "endSeconds": 12,
+      "purpose": "Real coordinated pull hook",
+      "sourceFootage": null,
+      "requiredEvidence": "real Twitch + actual public source",
+      "caption": "Chat becomes a pulling crew."
+    },
+    {
+      "id": "T02",
+      "startSeconds": 12,
+      "endSeconds": 26,
+      "purpose": "Problem in the actual product",
+      "sourceFootage": null,
+      "requiredEvidence": "actual running product",
+      "caption": "A decision viewers can watch and influence."
+    },
+    {
+      "id": "T03",
+      "startSeconds": 26,
+      "endSeconds": 50,
+      "purpose": "Configure, save, connect and source setup",
+      "sourceFootage": null,
+      "requiredEvidence": "actual configuration + live connection + OBS",
+      "caption": "Two choices. Exact keywords. One next action."
+    },
+    {
+      "id": "T04",
+      "startSeconds": 50,
+      "endSeconds": 86,
+      "purpose": "Continuous chat-to-rope causality",
+      "sourceFootage": null,
+      "requiredEvidence": "real messages and accepted pulls in one continuous round",
+      "caption": "Real chat → accepted pull → authoritative movement."
+    },
+    {
+      "id": "T05",
+      "startSeconds": 86,
+      "endSeconds": 118,
+      "purpose": "Combo, quiet decay and reversal",
+      "sourceFootage": null,
+      "requiredEvidence": "distinct real accounts, actual decay and opposing coordination",
+      "caption": "Distinct viewers build combos. Pressure decays."
+    },
+    {
+      "id": "T06",
+      "startSeconds": 118,
+      "endSeconds": 137,
+      "purpose": "Actual winner, consequence and commitment",
+      "sourceFootage": null,
+      "requiredEvidence": "same server result on dashboard/source; game action only if actually filmed",
+      "caption": "The winning choice becomes a clear next action."
+    },
+    {
+      "id": "T07",
+      "startSeconds": 137,
+      "endSeconds": 159,
+      "purpose": "Genuine Codex development evidence",
+      "sourceFootage": null,
+      "requiredEvidence": "principal project thread + implementation/debugging + real tests",
+      "caption": "Codex: architecture, implementation, tuning and regression QA."
+    },
+    {
+      "id": "T08",
+      "startSeconds": 159,
+      "endSeconds": 167,
+      "purpose": "Finish with actual rematch",
+      "sourceFootage": null,
+      "requiredEvidence": "real committed result to fresh countdown",
+      "caption": "Chat Tug Arena · Pull together. Decide what happens next."
+    }
+  ],
+  "publicationGate": {
+    "actualTwitchVerified": false,
+    "nativeObsVerified": false,
+    "codexFootageVerified": false,
+    "rightsAndPrivacyReviewedForFinalFootage": false,
+    "actualExportWatchedAndMeasured": false,
+    "externalPublishAuthorized": false,
+    "devpostSubmittedObserved": false
+  },
+  "principalCodexSessionIdStoredPrivately": true
+}

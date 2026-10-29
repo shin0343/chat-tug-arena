@@ -1,0 +1,12 @@
+
+> chat-tug-arena@0.1.0 qa:release-load
+> node --expose-gc --import tsx scripts/phase7-load-qa.ts
+
+{
+  "elapsedMs": 120053.7655,
+  "attempted": 2714,
+  "rounds": 10,
+  "subscriptions": 2,
+  "streamErrors": [],
+  "output": "docs/qa/phase7/load.json"
+}

@@ -1,0 +1,72 @@
+
+> chat-tug-arena@0.1.0 test:e2e
+> playwright test
+
+[WebServer] .env not found. Continuing without it.
+[WebServer] (node:30821) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:30820) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 49 tests using 1 worker
+
+(node:30822) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/e2e/connection.spec.ts:7:1 › actual Node simulation arrives through SSE, including a gap, and survives navigation (6.7s)
+  ✓   2 [chromium] › tests/e2e/connection.spec.ts:34:1 › command validation is recoverable and session commands never use browser storage (411ms)
+  ✓   3 [chromium] › tests/e2e/connection.spec.ts:46:1 › maximum-length commands stay readable at 320px without clipping or overlap (1.2s)
+  ✓   4 [chromium] › tests/e2e/connection.spec.ts:59:1 › server failure offers recovery and never preserves a green connection badge (243ms)
+  ✓   5 [chromium] › tests/e2e/connection.spec.ts:70:1 › a late command response cannot overwrite a newer realtime snapshot (6.1s)
+  ✓   6 [chromium] › tests/e2e/connection.spec.ts:83:1 › losing client updates removes the previous connected confirmation (230ms)
+  ✓   7 [chromium] › tests/e2e/connection.spec.ts:104:40 › fixture UI: not_connected is explicit and distinct (260ms)
+  ✓   8 [chromium] › tests/e2e/connection.spec.ts:104:40 › fixture UI: connecting is explicit and distinct (259ms)
+  ✓   9 [chromium] › tests/e2e/connection.spec.ts:104:40 › fixture UI: authorization_required is explicit and distinct (263ms)
+  ✓  10 [chromium] › tests/e2e/connection.spec.ts:104:40 › fixture UI: connected is explicit and distinct (314ms)
+  ✓  11 [chromium] › tests/e2e/connection.spec.ts:104:40 › fixture UI: reconnecting is explicit and distinct (312ms)
+  ✓  12 [chromium] › tests/e2e/connection.spec.ts:104:40 › fixture UI: authorization_expired is explicit and distinct (294ms)
+  ✓  13 [chromium] › tests/e2e/connection.spec.ts:104:40 › fixture UI: connection_failed is explicit and distinct (261ms)
+  ✓  14 [chromium] › tests/e2e/connection.spec.ts:104:40 › fixture UI: simulation is explicit and distinct (258ms)
+  ✓  15 [chromium] › tests/e2e/design-audit.spec.ts:9:1 › small-screen navigation is disclosed, keyboard operable and closes after choosing a task (503ms)
+  ✓  16 [chromium] › tests/e2e/design-audit.spec.ts:26:1 › the real thumbnail keeps the broadcast proportions and idle origin is labeled Standby (370ms)
+  ✓  17 [chromium] › tests/e2e/design-audit.spec.ts:45:1 › the source names the server winning choice and fits maximum-length names at broadcast sizes (8.5s)
+  ✓  18 [chromium] › tests/e2e/design-audit.spec.ts:62:1 › source failure replaces loading copy and actual clipboard success is confirmed beside OBS instructions (380ms)
+  ✓  19 [chromium] › tests/e2e/foundation.spec.ts:7:1 › landing makes the game playable without claiming a live connection (238ms)
+  ✓  20 [chromium] › tests/e2e/foundation.spec.ts:31:1 › dashboard is disconnected with an empty history and a clear creation action (240ms)
+  ✓  21 [chromium] › tests/e2e/foundation.spec.ts:51:1 › setup offers a transparent preview continuation (221ms)
+  ✓  22 [chromium] › tests/e2e/foundation.spec.ts:60:1 › round validation keeps edits and focuses the invalid field (473ms)
+  ✓  23 [chromium] › tests/e2e/foundation.spec.ts:79:1 › saved settings survive reload and appear in the control room (481ms)
+  ✓  24 [chromium] › tests/e2e/foundation.spec.ts:101:1 › legacy browser preview data cannot corrupt the server showdown draft (177ms)
+  ✓  25 [chromium] › tests/e2e/foundation.spec.ts:112:1 › server-session showdown saving works when browser storage is blocked (249ms)
+  ✓  26 [chromium] › tests/e2e/foundation.spec.ts:127:1 › connection and configuration desktop evidence (411ms)
+  ✓  27 [chromium] › tests/e2e/foundation.spec.ts:150:1 › overlay keeps a transparent upper canvas and honest standby state (212ms)
+  ✓  28 [chromium] › tests/e2e/foundation.spec.ts:176:1 › overlay copy has a genuine success and a clipboard failure path (289ms)
+  ✓  29 [chromium] › tests/e2e/foundation.spec.ts:196:1 › small layouts stay within the viewport with readable page navigation (1.6s)
+  ✓  30 [chromium] › tests/e2e/foundation.spec.ts:244:1 › keyboard focus and reduced motion remain usable (141ms)
+  ✓  31 [chromium] › tests/e2e/foundation.spec.ts:259:1 › all product routes render without browser errors (441ms)
+  ✓  32 [chromium] › tests/e2e/game.spec.ts:7:1 › real server mechanics, fairness, pause/resume and a cookie-free read-only overlay stay synchronized (5.0s)
+  ✓  33 [chromium] › tests/e2e/game.spec.ts:39:1 › a scenario finishes on server authority, exposes a result, and rematches without carrying inputs (7.3s)
+  ✓  34 [chromium] › tests/e2e/game.spec.ts:53:1 › mechanics view stays within small and desktop viewports with visible controls and labels (4.4s)
+  ✓  35 [chromium] › tests/e2e/game.spec.ts:66:1 › lost overlay updates freeze the drawing, remove the clock and explain the interruption (317ms)
+  ✓  36 [chromium] › tests/e2e/game.spec.ts:76:1 › mechanics keyboard controls and reduced motion work without browser errors (3.6s)
+  ✓  37 [chromium] › tests/e2e/overlay-art.spec.ts:5:1 › OBS canvas scales as 16:9 with safe labels, max commands and no clipped characters (3.5s)
+  ✓  38 [chromium] › tests/e2e/overlay-art.spec.ts:23:1 › a real distinct-user combo synchronizes connected poses; pause and reduced motion stop animation loops (4.3s)
+  ✓  39 [chromium] › tests/e2e/overlay-art.spec.ts:43:1 › server victory produces one bounded celebration, grounded defeat and a settled result on reload (8.3s)
+  ✓  40 [chromium] › tests/e2e/overlay-art.spec.ts:54:1 › transport interruption freezes art, reconnects to authority and does not replay old combos (3.9s)
+  ✓  41 [chromium] › tests/e2e/release.spec.ts:5:1 › a delayed action cannot restore pre-rotation CSRF after a fresh session bootstrap (414ms)
+  ✓  42 [chromium] › tests/e2e/release.spec.ts:29:1 › configured HTML remains literal text in the dashboard and read-only overlay (335ms)
+  ✓  43 [chromium] › tests/e2e/showdown.spec.ts:19:1 › complete streamer journey uses actual server results, commitment, history and a separate public overlay (10.4s)
+  ✓  44 [chromium] › tests/e2e/showdown.spec.ts:50:1 › pause, resume, manual finish and reset are confirmed; native dialog traps focus and restores it (5.5s)
+  ✓  45 [chromium] › tests/e2e/showdown.spec.ts:62:1 › configuration errors keep edits, focus the invalid field and recover after a failed save (1.2s)
+  ✓  46 [chromium] › tests/e2e/showdown.spec.ts:71:1 › a stale settings tab retains its draft and cannot silently overwrite a newer save (434ms)
+  ✓  47 [chromium] › tests/e2e/showdown.spec.ts:79:1 › a fresh-command start condition and reduced-motion feedback work without starting early (724ms)
+  ✓  48 [chromium] › tests/e2e/showdown.spec.ts:86:1 › maximum choices, keywords and consequences fit desktop, mobile and the actual overlay (4.9s)
+  ✓  49 [chromium] › tests/e2e/showdown.spec.ts:97:1 › losing dashboard transport disables controls, hides the clock and recovers current authority (3.8s)
+[WebServer] npm error Lifecycle script `start` failed with error:
+[WebServer] npm error code 143
+[WebServer] npm error path /Users/sjh/Hackaton & Contest/twitch-codex-plugin-hackaton/apps/web
+[WebServer] npm error workspace @chat-tug/web@0.1.0
+[WebServer] npm error location /Users/sjh/Hackaton & Contest/twitch-codex-plugin-hackaton/apps/web
+[WebServer] npm error command failed
+[WebServer] npm error command sh -c next start --hostname 127.0.0.1 --port 3000
+
+  49 passed (1.7m)

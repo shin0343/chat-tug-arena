@@ -1,0 +1,47 @@
+.mechanics-layout { display: grid; grid-template-columns: minmax(0, 1fr) 288px; gap: 24px; align-items: start; }
+.mechanics-primary, .mechanics-rail { display: grid; gap: 24px; min-width: 0; }
+.mechanics-form, .round-controls { padding: 20px; }
+.mechanics-form { display: flex; flex-direction: column; gap: 10px; }
+.mechanics-form label { font-weight: 600; font-size: 14px; }
+.mechanics-form select, .mechanics-form input { width: 100%; min-width: 0; }
+.control-help { color: var(--text-secondary); font-size: 12px; line-height: 1.6; margin: 0; }
+.round-state-label { font-weight: 600; margin: 0 0 12px; }
+.game-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.simulation-disclosure { margin-bottom: 24px; background: var(--team-b-soft); border-color: var(--team-b); }
+.mechanics-empty p { margin: 0; padding: 0 20px 20px; color: var(--text-secondary); }
+.game-state-line { padding: 12px 20px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font-weight: 600; font-size: 14px; }
+.game-state-line span { font-weight: 400; color: var(--text-secondary); }
+.authoritative-arena .pulling-group { transition: none; }
+.game-readouts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid var(--border); padding: 20px; gap: 16px; }
+.game-readouts div { display: grid; gap: 4px; }
+.game-readouts span { color: var(--text-secondary); font-size: 12px; }
+.game-readouts strong { font: 600 24px/1.2 var(--font-display); font-variant-numeric: tabular-nums; }
+.pressure-grid { display: grid; grid-template-columns: 1fr 1fr; }
+.pressure-team { padding: 20px; min-width: 0; }
+.pressure-team + .pressure-team { border-left: 1px solid var(--border); }
+.pressure-team h3 { font-size: 15px; margin: 0 0 12px; overflow-wrap: anywhere; }
+.pressure-coral h3 { color: var(--team-a-ink); }
+.pressure-mint h3 { color: var(--team-b-ink); }
+.pressure-team meter { width: 100%; height: 14px; display: block; appearance: none; }
+.pressure-team meter::-webkit-meter-bar { background: var(--surface-muted); border: 0; border-radius: 3px; box-shadow: none; }
+.pressure-coral meter::-webkit-meter-optimum-value { background: var(--team-a); }
+.pressure-mint meter::-webkit-meter-optimum-value { background: var(--team-b); }
+.pressure-coral meter::-moz-meter-bar { background: var(--team-a); }
+.pressure-mint meter::-moz-meter-bar { background: var(--team-b); }
+.pressure-team dl { margin-bottom: 0; }
+.pressure-team dl > div { display: flex; justify-content: space-between; gap: 12px; margin: 8px 0; font-size: 12px; }
+.pressure-team dt { color: var(--text-secondary); }
+.pressure-team dd { margin: 0; font-weight: 600; text-align: right; font-variant-numeric: tabular-nums; }
+.mechanics-summary { margin: 0; padding: 16px 20px; color: var(--text-secondary); font-size: 12px; }
+.mechanics-inputs, .mechanics-events { list-style: none; margin: 0; padding: 0; }
+.mechanics-inputs li, .mechanics-events li { display: grid; grid-template-columns: auto minmax(0, 1fr) auto auto; align-items: center; gap: 12px; padding: 12px 20px; border-top: 1px solid var(--border); font-size: 12px; overflow-wrap: anywhere; }
+.mechanics-events li { grid-template-columns: minmax(0, 1fr) auto auto; }
+.mechanics-inputs time, .mechanics-events time { color: var(--text-secondary); font-variant-numeric: tabular-nums; }
+.decision-team { border-radius: 4px; padding: 3px 6px; }
+.decision-team.coral { background: var(--team-a-soft); color: var(--team-a-ink); }
+.decision-team.mint { background: var(--team-b-soft); color: var(--team-b-ink); }
+.test-pull-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.overlay-share { margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--border); }
+.overlay-share p { margin-bottom: 12px; }
+@media (max-width: 1199px) { .mechanics-layout { grid-template-columns: 1fr; } .mechanics-rail { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 767px) { .mechanics-rail { grid-template-columns: 1fr; } .game-readouts { grid-template-columns: repeat(2, minmax(0, 1fr)); } .pressure-grid { grid-template-columns: 1fr; } .pressure-team + .pressure-team { border-left: 0; border-top: 1px solid var(--border); } .mechanics-inputs li { grid-template-columns: auto minmax(0, 1fr) auto; gap: 8px; } .mechanics-inputs time { grid-column: 3; } .mechanics-events li { grid-template-columns: minmax(0, 1fr) auto; gap: 8px; } .mechanics-events time { grid-column: 2; } }

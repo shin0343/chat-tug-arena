@@ -1,0 +1,444 @@
+{
+  "measuredAt": "2026-10-28T03:57:46.816Z",
+  "thumbnail": {
+    "canvasWidth": 218.65625,
+    "boardHeight": 22.5,
+    "clockHeight": 19.015625,
+    "normalizedBoardHeight": 0.1029012433900243
+  },
+  "comparisons": [
+    {
+      "name": "paused-390",
+      "before": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 2510,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 223,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 0,
+            "y": 223,
+            "width": 390,
+            "height": 58,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 16,
+            "y": 308,
+            "width": 358,
+            "height": 0,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 17,
+            "y": 847.828125,
+            "width": 356,
+            "height": 60.0625,
+            "fontSize": "15px"
+          }
+        ]
+      },
+      "after": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 2365,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 0,
+            "y": 68,
+            "width": 390,
+            "height": 58,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 16,
+            "y": 153,
+            "width": 358,
+            "height": 0,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 17,
+            "y": 687.625,
+            "width": 356,
+            "height": 60.0625,
+            "fontSize": "15px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "configuration-full-1440",
+      "before": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1488,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 64.140625,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".field label",
+            "x": 277,
+            "y": 229.140625,
+            "width": 592.890625,
+            "height": 18.59375,
+            "fontSize": "12px"
+          },
+          {
+            "selector": ".showdown-setup .form-save",
+            "x": 277,
+            "y": 1298.3125,
+            "width": 592.890625,
+            "height": 78.5,
+            "fontSize": "15px"
+          }
+        ]
+      },
+      "after": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1462,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 927.890625,
+            "y": 408.5625,
+            "width": 479.09375,
+            "height": 80.84375,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".field label",
+            "x": 277,
+            "y": 232.25,
+            "width": 592.890625,
+            "height": 21.6875,
+            "fontSize": "14px"
+          },
+          {
+            "selector": ".showdown-setup .form-save",
+            "x": 277,
+            "y": 1288.984375,
+            "width": 592.890625,
+            "height": 63,
+            "fontSize": "15px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "setup-1440",
+      "before": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1518,
+        "elements": [
+          {
+            "selector": ".connection-privacy",
+            "x": 293,
+            "y": 825.671875,
+            "width": 508.90625,
+            "height": 34,
+            "fontSize": "10px"
+          },
+          {
+            "selector": ".field label",
+            "x": 262,
+            "y": 1017.0625,
+            "width": 277.453125,
+            "height": 18.59375,
+            "fontSize": "12px"
+          }
+        ]
+      },
+      "after": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1559,
+        "elements": [
+          {
+            "selector": ".connection-privacy",
+            "x": 293,
+            "y": 850.796875,
+            "width": 508.90625,
+            "height": 40.78125,
+            "fontSize": "12px"
+          },
+          {
+            "selector": ".field label",
+            "x": 262,
+            "y": 1052.0625,
+            "width": 277.453125,
+            "height": 21.6875,
+            "fontSize": "14px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "obs-setup-390",
+      "before": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 1680,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 223,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 0,
+            "y": 223,
+            "width": 390,
+            "height": 58,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 16,
+            "y": 308,
+            "width": 358,
+            "height": 58.984375,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".obs-instructions li p",
+            "x": 41,
+            "y": 923.734375,
+            "width": 333,
+            "height": 40.78125,
+            "fontSize": "12px"
+          }
+        ]
+      },
+      "after": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 1621,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 0,
+            "y": 68,
+            "width": 390,
+            "height": 58,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 16,
+            "y": 153,
+            "width": 358,
+            "height": 86.890625,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".obs-instructions li p",
+            "x": 41,
+            "y": 339.375,
+            "width": 333,
+            "height": 47.59375,
+            "fontSize": "14px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "result-1440",
+      "before": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1895,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 64.140625,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".consequence-card",
+            "x": 273,
+            "y": 468.859375,
+            "width": 822,
+            "height": 233.390625,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 249,
+            "y": 980.71875,
+            "width": 870,
+            "height": 146.8125,
+            "fontSize": "15px"
+          }
+        ]
+      },
+      "after": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1000,
+        "scrollHeight": 1882,
+        "elements": [
+          {
+            "selector": ".sidebar",
+            "x": 0,
+            "y": 0,
+            "width": 216,
+            "height": 1000,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".workspace-topbar",
+            "x": 216,
+            "y": 0,
+            "width": 1224,
+            "height": 72,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".page-heading",
+            "x": 248,
+            "y": 107,
+            "width": 1160,
+            "height": 67.25,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".consequence-card",
+            "x": 273,
+            "y": 465.0625,
+            "width": 822,
+            "height": 217.265625,
+            "fontSize": "15px"
+          },
+          {
+            "selector": ".game-art",
+            "x": 249,
+            "y": 966.6875,
+            "width": 870,
+            "height": 146.8125,
+            "fontSize": "15px"
+          }
+        ]
+      }
+    }
+  ],
+  "alpha": {
+    "viewport": [
+      1920,
+      1080
+    ],
+    "topRows": 250,
+    "topPixels": 480000,
+    "fullyTransparentTopPixels": 480000,
+    "opaquePixels": 955642
+  }
+}

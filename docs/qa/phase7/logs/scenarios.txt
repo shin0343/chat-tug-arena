@@ -1,0 +1,11 @@
+
+> chat-tug-arena@0.1.0 test:scenarios
+> node --import tsx scripts/game-scenarios.ts
+
+balanced: none / tie; 45000ms; x=0.000000; 114 applied, 0 rejected, 0 upstream duplicates
+early_blowout: coral / endpoint; 3420ms; x=-1.000000; 20 applied, 0 rejected, 0 upstream duplicates
+late_comeback: mint / endpoint; 41700ms; x=1.000000; 50 applied, 0 rejected, 0 upstream duplicates
+combo_rush: coral / endpoint; 4680ms; x=-1.000000; 20 applied, 9 rejected, 0 upstream duplicates
+spam_attempt: mint / time; 45000ms; x=0.767657; 64 applied, 1067 rejected, 1087 upstream duplicates
+quiet: none / no_participation; 45000ms; x=0.000000; 0 applied, 0 rejected, 0 upstream duplicates
+connection_interruption: none / tie; 45000ms; x=0.000000; 108 applied, 12 rejected, 0 upstream duplicates

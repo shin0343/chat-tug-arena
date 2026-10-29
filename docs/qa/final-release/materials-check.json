@@ -1,0 +1,50 @@
+{
+  "capturedAt": "2026-10-29T00:39:56.153Z",
+  "localArtifactValidation": "PASS",
+  "submissionReadiness": "BLOCKED",
+  "requiredArtifacts": 12,
+  "markdownFilesChecked": 33,
+  "localLinksChecked": 274,
+  "missing": [],
+  "timeline": {
+    "segments": 8,
+    "plannedDurationSeconds": 167,
+    "actualExportMeasured": false,
+    "captionCues": 8,
+    "narrationSegments": 8,
+    "narrationWords": 335,
+    "spokenTimingMeasured": false
+  },
+  "finalSourcePatternScan": {
+    "files": 136,
+    "formats": [
+      "OpenAI key",
+      "AWS key ID",
+      "Google API key",
+      "Private key"
+    ],
+    "findings": [],
+    "limitations": "No git history/private env/vault/media; no guarantee for all credential formats; no secret values emitted."
+  },
+  "runtimeSourceHashes": {
+    "apps/web/src/lib/connection-store.tsx": "e4b6360e64cb5758d2c2f6c8dc14467cedd17ace69312b876c150063307e386c",
+    "apps/realtime/src/sse.ts": "c151e44377a174a424b1604b1abb885c1c52f1fdf24d342a84d3138c93a2eff6",
+    "apps/realtime/src/server.ts": "74eb280213d946621974b56678f514a80c371bf6550dfdc0493f27fdc0effb24",
+    "apps/realtime/src/room.ts": "d1bbfc7f9687a4e51cbcfbc128efdff5752c5e9b6c126e6a27f905ef2c054eac",
+    "apps/realtime/src/runtime.ts": "ed2fafd5ad763634edcd0381aed41d8a2f0404c92dce1318553684e02290a472",
+    "apps/realtime/src/game/engine.ts": "93a6b87c4d0dcc0a24b4fe83299d90fd196bf563301cc4ebcdc3c126e7f80019",
+    "apps/realtime/src/game/tuning.ts": "a09a475df9d1b2e2dc4188c8e19a4ccb279551932cdf90c85e9d73bea8b28e61",
+    "packages/contracts/src/index.ts": "d2a3cef107737540af043066d956e7142ba19508fa3d10061b18879081ae765c",
+    "package-lock.json": "609506f674ff5482609c1e1ae5880d71f97cbd1ae47a4b7e66be43c5b573a716",
+    "DESIGN.md": "593b400c0738783649f15f52ced4588d2aeb38a1ae7055793491eca524e2ac88"
+  },
+  "actualRepositoryUrl": null,
+  "principalCodexSessionId": null,
+  "actualFinalVideoPath": null,
+  "publicYouTubeUrl": null,
+  "observedDevpostSubmitted": false,
+  "limitations": [
+    "Local file/timing consistency only. This check does not verify Twitch authorization, footage, judge access, rights or submission state. Principal identity is checked against separately recorded native evidence.",
+    "Runtime hashes identify local files, not a git revision or proof of submission-period creation."
+  ]
+}

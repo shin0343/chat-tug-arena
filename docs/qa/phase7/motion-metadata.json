@@ -1,0 +1,39 @@
+{
+  "scope": "Actual local simulation browser QA recordings, not final Twitch/Codex demo",
+  "videos": [
+    {
+      "path": "docs/qa/phase7/regression/motion/streamer-journey.webm",
+      "sha256": "7bff9dbcc3256b2f46783a3e927e24b2d34417477cbd95054409ad9c410725ef",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 1280,
+          "height": 890,
+          "r_frame_rate": "25/1"
+        }
+      ],
+      "format": {
+        "duration": "10.480000"
+      }
+    },
+    {
+      "path": "docs/qa/phase7/regression/motion/consequence-overlay.webm",
+      "sha256": "ee97c5b5e23456007ca0ccc77bcd8363d0e0643aded2ad743ae875f800adf09d",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "25/1"
+        }
+      ],
+      "format": {
+        "duration": "11.160000"
+      }
+    }
+  ]
+}

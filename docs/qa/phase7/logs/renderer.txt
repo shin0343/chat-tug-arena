@@ -1,0 +1,42 @@
+
+> chat-tug-arena@0.1.0 qa:phase4
+> node --import tsx scripts/phase4-visual-qa.ts --performance-only
+
+{
+  "screenshots": 2,
+  "performance": [
+    {
+      "source": "Chromium headless, 1920x1080, ten characters, actual SSE, video recording disabled",
+      "durationMs": 8013.700000047684,
+      "frames": 481,
+      "meanIntervalMs": 16.66611226611227,
+      "p95IntervalMs": 16.700000000000728,
+      "maximumIntervalMs": 16.80000000000109,
+      "longTasks": [],
+      "domNodes": 351,
+      "characters": 10,
+      "particles": 0,
+      "rendererAverageMs": "0.240",
+      "rendererMaximumMs": "0.500",
+      "resources": [
+        {
+          "name": "/game/fieldday-symbols.svg",
+          "bytes": 1123
+        },
+        {
+          "name": "/game/fieldday-symbols.svg",
+          "bytes": 300
+        },
+        {
+          "name": "/game/fieldday-symbols.svg",
+          "bytes": 300
+        }
+      ],
+      "observedRafHz": 60.0019959083878,
+      "taskDurationMs": 911.384,
+      "scriptDurationMs": 185.263,
+      "layoutDurationMs": 62.852000000000004
+    }
+  ],
+  "browserErrors": []
+}

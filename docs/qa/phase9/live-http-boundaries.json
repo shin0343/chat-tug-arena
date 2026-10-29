@@ -1,0 +1,31 @@
+{
+  "capturedAt": "2026-10-28T16:44:50.592Z",
+  "scope": "actual uncredentialed browser-origin HTTP requests; no control session/capability supplied",
+  "outcomes": [
+    {
+      "method": "GET",
+      "path": "/sw.js",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "path": "/api/game/overlay-key",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/events",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/overlay",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/game/finish",
+      "status": 401
+    }
+  ]
+}

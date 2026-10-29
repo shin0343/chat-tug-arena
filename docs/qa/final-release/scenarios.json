@@ -1,0 +1,237 @@
+{
+  "tuningVersion": 1,
+  "seed": 42,
+  "reports": [
+    {
+      "scenario": "balanced",
+      "seed": 42,
+      "winner": null,
+      "reason": "tie",
+      "activeMs": 45000,
+      "wallMs": 48000,
+      "position": 0,
+      "minimum": 0,
+      "maximum": 0,
+      "peakVelocity": 0,
+      "uniqueViewers": 6,
+      "accepted": 114,
+      "rejected": 0,
+      "pipelineDuplicates": 0,
+      "combos": 14,
+      "comebacks": 0,
+      "contributions": {
+        "coral": 57,
+        "mint": 57
+      },
+      "rejections": {
+        "inactive": 0,
+        "duplicate": 0,
+        "cooldown": 0,
+        "team_locked": 0,
+        "repeat_limit": 0,
+        "rate_limited": 0,
+        "capacity": 0,
+        "late": 0,
+        "wrong_source": 0
+      }
+    },
+    {
+      "scenario": "early_blowout",
+      "seed": 42,
+      "winner": "coral",
+      "reason": "endpoint",
+      "activeMs": 3420,
+      "wallMs": 6420,
+      "position": -1,
+      "minimum": -1,
+      "maximum": 0,
+      "peakVelocity": 0.5105566200310347,
+      "uniqueViewers": 10,
+      "accepted": 20,
+      "rejected": 0,
+      "pipelineDuplicates": 0,
+      "combos": 1,
+      "comebacks": 0,
+      "contributions": {
+        "coral": 20,
+        "mint": 0
+      },
+      "rejections": {
+        "inactive": 0,
+        "duplicate": 0,
+        "cooldown": 0,
+        "team_locked": 0,
+        "repeat_limit": 0,
+        "rate_limited": 0,
+        "capacity": 0,
+        "late": 0,
+        "wrong_source": 0
+      }
+    },
+    {
+      "scenario": "late_comeback",
+      "seed": 42,
+      "winner": "mint",
+      "reason": "endpoint",
+      "activeMs": 41700,
+      "wallMs": 44700,
+      "position": 1,
+      "minimum": -0.6319715246518812,
+      "maximum": 1,
+      "peakVelocity": 0.280717769863468,
+      "uniqueViewers": 8,
+      "accepted": 50,
+      "rejected": 0,
+      "pipelineDuplicates": 0,
+      "combos": 2,
+      "comebacks": 1,
+      "contributions": {
+        "coral": 14,
+        "mint": 36
+      },
+      "rejections": {
+        "inactive": 0,
+        "duplicate": 0,
+        "cooldown": 0,
+        "team_locked": 0,
+        "repeat_limit": 0,
+        "rate_limited": 0,
+        "capacity": 0,
+        "late": 0,
+        "wrong_source": 0
+      }
+    },
+    {
+      "scenario": "combo_rush",
+      "seed": 42,
+      "winner": "coral",
+      "reason": "endpoint",
+      "activeMs": 4680,
+      "wallMs": 7680,
+      "position": -1,
+      "minimum": -1,
+      "maximum": 0,
+      "peakVelocity": 0.4361016426074632,
+      "uniqueViewers": 10,
+      "accepted": 20,
+      "rejected": 9,
+      "pipelineDuplicates": 0,
+      "combos": 1,
+      "comebacks": 0,
+      "contributions": {
+        "coral": 20,
+        "mint": 0
+      },
+      "rejections": {
+        "inactive": 0,
+        "duplicate": 0,
+        "cooldown": 9,
+        "team_locked": 0,
+        "repeat_limit": 0,
+        "rate_limited": 0,
+        "capacity": 0,
+        "late": 0,
+        "wrong_source": 0
+      }
+    },
+    {
+      "scenario": "spam_attempt",
+      "seed": 42,
+      "winner": "mint",
+      "reason": "time",
+      "activeMs": 45000,
+      "wallMs": 48000,
+      "position": 0.7676566743933045,
+      "minimum": -0.22551097642605955,
+      "maximum": 0.7676566743933045,
+      "peakVelocity": 0.10170418056402082,
+      "uniqueViewers": 4,
+      "accepted": 64,
+      "rejected": 1067,
+      "pipelineDuplicates": 1087,
+      "combos": 5,
+      "comebacks": 0,
+      "contributions": {
+        "coral": 22,
+        "mint": 42
+      },
+      "rejections": {
+        "inactive": 0,
+        "duplicate": 0,
+        "cooldown": 1067,
+        "team_locked": 0,
+        "repeat_limit": 0,
+        "rate_limited": 0,
+        "capacity": 0,
+        "late": 0,
+        "wrong_source": 0
+      }
+    },
+    {
+      "scenario": "quiet",
+      "seed": 42,
+      "winner": null,
+      "reason": "no_participation",
+      "activeMs": 45000,
+      "wallMs": 48000,
+      "position": 0,
+      "minimum": 0,
+      "maximum": 0,
+      "peakVelocity": 0,
+      "uniqueViewers": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "pipelineDuplicates": 0,
+      "combos": 0,
+      "comebacks": 0,
+      "contributions": {
+        "coral": 0,
+        "mint": 0
+      },
+      "rejections": {
+        "inactive": 0,
+        "duplicate": 0,
+        "cooldown": 0,
+        "team_locked": 0,
+        "repeat_limit": 0,
+        "rate_limited": 0,
+        "capacity": 0,
+        "late": 0,
+        "wrong_source": 0
+      }
+    },
+    {
+      "scenario": "connection_interruption",
+      "seed": 42,
+      "winner": null,
+      "reason": "tie",
+      "activeMs": 45000,
+      "wallMs": 50000,
+      "position": 0,
+      "minimum": 0,
+      "maximum": 0,
+      "peakVelocity": 0,
+      "uniqueViewers": 6,
+      "accepted": 108,
+      "rejected": 12,
+      "pipelineDuplicates": 0,
+      "combos": 14,
+      "comebacks": 0,
+      "contributions": {
+        "coral": 54,
+        "mint": 54
+      },
+      "rejections": {
+        "inactive": 12,
+        "duplicate": 0,
+        "cooldown": 0,
+        "team_locked": 0,
+        "repeat_limit": 0,
+        "rate_limited": 0,
+        "capacity": 0,
+        "late": 0,
+        "wrong_source": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "name": "before-showdown",
+    "duration": "9.200000",
+    "size": "384123",
+    "video": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "name": "before-reversal",
+    "duration": "5.600000",
+    "size": "233848",
+    "video": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "name": "after-showdown",
+    "duration": "9.280000",
+    "size": "372371",
+    "video": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "name": "after-reversal",
+    "duration": "5.520000",
+    "size": "209718",
+    "video": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "name": "streamer-journey",
+    "duration": "11.200000",
+    "size": "788412",
+    "video": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 890
+    }
+  },
+  {
+    "name": "consequence-overlay",
+    "duration": "11.280000",
+    "size": "395728",
+    "video": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "name": "game-motion",
+    "duration": "8.480000",
+    "size": "413715",
+    "video": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720
+    }
+  }
+]

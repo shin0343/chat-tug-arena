@@ -1,0 +1,34 @@
+[
+  {
+    "source": "Chromium headless, 1920x1080, ten characters, actual SSE, video recording disabled",
+    "durationMs": 8007.5,
+    "frames": 480,
+    "meanIntervalMs": 16.66583333333333,
+    "p95IntervalMs": 16.800000000000182,
+    "maximumIntervalMs": 16.80000000000109,
+    "longTasks": [],
+    "domNodes": 350,
+    "characters": 10,
+    "particles": 0,
+    "rendererAverageMs": "0.148",
+    "rendererMaximumMs": "0.700",
+    "resources": [
+      {
+        "name": "/game/fieldday-symbols.svg",
+        "bytes": 1123
+      },
+      {
+        "name": "/game/fieldday-symbols.svg",
+        "bytes": 300
+      },
+      {
+        "name": "/game/fieldday-symbols.svg",
+        "bytes": 300
+      }
+    ],
+    "observedRafHz": 60.00300015000751,
+    "taskDurationMs": 589.9369999999999,
+    "scriptDurationMs": 121.061,
+    "layoutDurationMs": 40.489
+  }
+]

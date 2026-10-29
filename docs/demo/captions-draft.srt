@@ -1,0 +1,33 @@
+1
+00:00:00,000 --> 00:00:12,000
+Chat becomes a pulling crew.
+
+2
+00:00:12,000 --> 00:00:26,000
+A decision viewers can watch and influence.
+
+3
+00:00:26,000 --> 00:00:50,000
+Two choices. Exact keywords. One next action.
+
+4
+00:00:50,000 --> 00:01:26,000
+Real chat → accepted pull → authoritative movement.
+
+5
+00:01:26,000 --> 00:01:58,000
+Distinct viewers build combos. Pressure decays.
+
+6
+00:01:58,000 --> 00:02:17,000
+The winning choice becomes a clear next action.
+
+7
+00:02:17,000 --> 00:02:39,000
+Codex: architecture, implementation,
+tuning and regression QA.
+
+8
+00:02:39,000 --> 00:02:47,000
+Chat Tug Arena · Pull together.
+Decide what happens next.
