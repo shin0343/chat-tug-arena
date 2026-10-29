@@ -2,7 +2,7 @@
 
 Prepared 2026-10-28. **DRAFT / BLOCKED FOR PUBLICATION.** Local application behavior is verified in
 [FINAL_QA_REPORT](FINAL_QA_REPORT.md). Real one-account Twitch gameplay and a private raw browser take now exist; native OBS,
-multi-account footage, judge repository access, actual Codex footage and the final public demo remain missing.
+multi-account footage, actual Codex footage and the final demo remain missing. Public repository access is now verified.
 Do not paste this as an already submitted or live-verified entry. Review the limitations with the final footage before publishing.
 
 ## Project name
@@ -98,10 +98,10 @@ No top-level project license has been chosen; original work is not represented a
 
 | Field | Actual value / status |
 | --- | --- |
-| Repository URL | BLOCKED — local Git snapshot prepared; no remote/judge URL published or verified |
+| Repository URL | PASS — https://github.com/shin0343/twitch-codex-plugin-hackaton; public source and README verified without authentication |
 | Principal Codex session ID | PASS privately — maintainer must enter the verified original ID from the ignored submission handoff; no ID is published here and `/status` UI was not recorded |
 | Public YouTube demo | BLOCKED — no final authentic Twitch/Codex video recorded, uploaded or verified |
-| Working-project testing access | BLOCKED — local instructions verified; external judge access not established |
+| Working-project testing access | PASS source access — anonymous clone includes code/assets/notices and credential-free rehearsal instructions; no hosted application is claimed |
 | Devpost state | BLOCKED — no entry opened/published/submitted in this work |
 
 Final requirements/access checks live in [FINAL_SUBMISSION_AUDIT](FINAL_SUBMISSION_AUDIT.md).

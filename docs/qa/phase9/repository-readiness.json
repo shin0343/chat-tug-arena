@@ -1,13 +1,13 @@
 {
-  "capturedAt": "2026-10-28T20:17:41.746Z",
-  "scope": "Actual local release source commit and inspected committed history; no remote/push/judge access",
+  "capturedAt": "2026-10-29T00:47:41.648Z",
+  "scope": "Public GitHub source snapshot, anonymous clone and private-value checks",
   "gitRepositoryPresent": true,
   "branch": "main",
-  "sourceCommit": "80ff3dc4553d42452adfca6744abfe7cf7b6a039",
-  "sourceCommitShort": "80ff3dc",
-  "remote": null,
+  "sourceCommit": "cbb934630b3d7342993bd56d248da7a50a106bce",
+  "sourceCommitShort": "cbb9346",
+  "remote": "https://github.com/shin0343/twitch-codex-plugin-hackaton",
   "committedSourceVerified": true,
-  "judgeAccessVerified": false,
+  "judgeAccessVerified": true,
   "stagedFiles": 718,
   "stagedBytes": 107665168,
   "forbiddenPaths": [],
@@ -52,5 +52,7 @@
     }
   ],
   "historicalRepositoryState": "No original Git metadata/history existed before Phase9v2; this current local snapshot is not evidence of an earlier creation date",
-  "externalWrites": "No Git remote creation, push, visibility change, upload or submission"
+  "externalWrites": "Owner explicitly authorized this public repository/main push. No video upload or Devpost submission.",
+  "sourceFilesPublic": 721,
+  "originalHistoryRetainedPrivately": true
 }

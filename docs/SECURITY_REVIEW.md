@@ -88,3 +88,11 @@ The deterministic before/fix regression, expiry/bound test, existing queued-auth
 Actual unauthenticated overlay-key/events/overlay/control requests returned401; no public capability grants streamer controls.
 Fresh npm audit reported0 known vulnerabilities. Final Git staging/history and current frontend static-file scans must remain clean;
 no remote visibility, push, upload or Devpost submission is authorized by this review.
+
+## Public GitHub source gate
+
+The owner authorized public publication. Public source was cloned with credential helpers and global/system Git configuration disabled; README/page returned200 and private .env404.
+Known Client ID/Secret, encryption/access/refresh/CSRF values and the private Codex identifier were checked in memory against public source, with0 matches.
+Only sanitized main history is public; the earlier history and principal identity proof remain in an ignored private bundle/handoff.
+No project secret was rotated/revoked here. Owner rotation of the conversation-shared app secret and post-rotation smoke testing remain pending.
+[Actual publication scope](qa/final-release/publication.json).

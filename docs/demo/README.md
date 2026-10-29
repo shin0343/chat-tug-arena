@@ -11,3 +11,5 @@ These are **unrecorded editorial drafts**. No final MP4, narration, actual Twitc
 Use existing DM Sans/Barlow Condensed and DESIGN semantic tokens. Preserve labels and clear space around the rope, commands and winner.
 Do not use existing simulation clips as real Twitch evidence, fill slots with stock/AI footage, or remove their source labels.
 No automatic editor/export/upload is wired to this manifest. All publication flags remain false.
+
+Public source URL is now verified in edit-plan.json. Video/upload/Submitted gates remain false; the principal Codex identifier is intentionally private.

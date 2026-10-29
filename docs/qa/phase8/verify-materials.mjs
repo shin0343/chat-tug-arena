@@ -35,7 +35,16 @@ for (const segment of plan.segments) {
 }
 assert.equal(end, 167); assert(end < 180);
 for (const value of Object.values(plan.publicationGate)) assert.equal(value, false);
-for (const value of [plan.verifiedRepositoryUrl, plan.verifiedPublicYouTubeUrl, plan.output.actualExportPath, plan.output.measuredDurationSeconds]) assert.equal(value, null);
+for (const value of [plan.verifiedPublicYouTubeUrl, plan.output.actualExportPath, plan.output.measuredDurationSeconds]) assert.equal(value, null);
+if (plan.verifiedRepositoryUrl !== null) {
+  const proof = JSON.parse(readFileSync('docs/qa/final-release/publication.json', 'utf8'));
+  assert.equal(proof.status, 'PASS');
+  assert.equal(proof.visibility, 'PUBLIC');
+  assert.equal(proof.repositoryUrl, plan.verifiedRepositoryUrl);
+  assert.equal(proof.anonymousAccess.readmeHTTP, 200);
+  assert.equal(proof.sourceClone.status, 'PASS');
+  assert.deepEqual(proof.privacy.knownPrivateValueMatches, []);
+}
 if (plan.principalCodexSessionId !== null) {
   const proof = JSON.parse(readFileSync('docs/qa/phase9/codex-thread-evidence.json', 'utf8'));
   assert.equal(plan.principalCodexSessionId, proof.metadata.id);
@@ -78,7 +87,7 @@ const report = {
   timeline: { segments: 8, plannedDurationSeconds: end, actualExportMeasured: false, captionCues: cues.length, narrationSegments: narration.length, narrationWords: narration.join(' ').split(/\s+/).length, spokenTimingMeasured: false },
   finalSourcePatternScan: { files: sourceFiles.length, formats: formats.map(([format]) => format), findings, limitations: 'No git history/private env/vault/media; no guarantee for all credential formats; no secret values emitted.' },
   runtimeSourceHashes: Object.fromEntries(candidate.map(file => [file, createHash('sha256').update(readFileSync(file)).digest('hex')])),
-  actualRepositoryUrl: null, principalCodexSessionId: plan.principalCodexSessionId, actualFinalVideoPath: null, publicYouTubeUrl: null, observedDevpostSubmitted: false,
+  actualRepositoryUrl: plan.verifiedRepositoryUrl, principalCodexSessionId: plan.principalCodexSessionId, actualFinalVideoPath: null, publicYouTubeUrl: null, observedDevpostSubmitted: false,
   limitations: ['Local file/timing consistency only. This check does not verify Twitch authorization, footage, judge access, rights or submission state. Principal identity is checked against separately recorded native evidence.', 'Runtime hashes identify local files, not a git revision or proof of submission-period creation.']
 };
 mkdirSync(directory, { recursive: true }); writeFileSync(`${directory}/materials-check.json`, JSON.stringify(report, null, 2) + '\n');

@@ -1,7 +1,7 @@
 # Final blocker status — Phase 9 v2
 
 As of 2026-10-28: **BLOCKED / NOT SUBMITTED**. Basic real Twitch gameplay and the principal Codex ID are verified.
-Native OBS, judge access and final submission artifacts/actions remain open. Feature freeze is active.
+Native OBS and final video/submission artifacts/actions remain open. Public source access is now verified. Feature freeze is active.
 
 | Requirement | Status | Evidence / minimum next action |
 | --- | --- | --- |
@@ -9,12 +9,12 @@ Native OBS, judge access and final submission artifacts/actions remain open. Fea
 | Real chat → authoritative game → browser | PASS, one real account | A/B inputs in separate rounds, opposite displacement, Mage/Knight wins; [live report](LIVE_TWITCH_TEST.md) |
 | Momentum/decay, consequence, acknowledgment, rematch | PASS scoped | Actual samples, exact actions, zeroed rematch state; no external game change claimed |
 | Team switch / repeated play | PASS scoped | Real `team locked`; two Mint pulls, distinct count1. Long-gap weights1 do not prove live cooldown/diminishing |
-| Real multi-user combo / comeback | BLOCKED | Need3 distinct real accounts within3s and genuine opposition. Run existing recipe; record actual boost/reversal |
-| Native OBS | BLOCKED | No accessible installed/indexed OBS. Open/install OBS, add current room source1920×1080 and execute runbook. Browser movie is not OBS proof |
+| Real multi-user combo / comeback | BLOCKED, optional quality check | Need3 distinct accounts for one crew combo and genuine opposition for a reversal. Keep simulation labeled; this must not prevent a truthful one-account demo |
+| Native OBS | BLOCKED, optional quality check | OBS is not installed. The owner selected native macOS/Recordly browser recording; this does not certify OBS/CEF |
 | Principal Codex ID | PASS privately | Native metadata verified; actual ID retained only in ignored submission handoff, no visual `/status` claim |
 | Local release regression | PASS | Rotation fix; full147/50 repeated from a source-only install without env/vault; lint/types/build and16 contrast pairs |
-| Local release source | PASS | `80ff3dc` on main; clean source-only147/50, committed-history/staged/static known-secret checks clean; [repository record](qa/phase9/repository-readiness.json) |
-| Judge repository access | BLOCKED | No remote/publication/access. Authorize an actual repository/push, then verify judge access and keep it available |
+| Local release source | PASS | `cbb9346` public source snapshot; clean source-only147/50, committed-history/staged/static known-secret checks clean; [repository record](qa/phase9/repository-readiness.json) |
+| Judge repository access | PASS source access | [https://github.com/shin0343/twitch-codex-plugin-hackaton](https://github.com/shin0343/twitch-codex-plugin-hackaton); anonymous clone/README200, correct source and no private files. [Actual publication proof](qa/final-release/publication.json) |
 | Final authentic demo | BLOCKED | Private34.998333s real Twitch/browser take exists. Need OBS/multi-account/Codex takes, human narration and reviewed final<180s export |
 | Public YouTube | BLOCKED | No final export/upload/URL. Obtain upload authorization; verify public signed-out playback |
 | Devpost Submitted | BLOCKED | No submission authorized/performed. Provide actual links, authorize submission and verify Submitted before deadline |
@@ -39,7 +39,7 @@ cd '/Users/sjh/Hackaton & Contest/twitch-codex-plugin-hackaton'
 npm start
 ```
 
-The agent's production supervisor is already running both processes; stop it before starting another copy.
+Check whether the production supervisor is already running both processes; stop it before starting another copy.
 Use `http://localhost:3000/dashboard/connection` for health, `/dashboard` for the actual result,
 and `/dashboard/overlay` to copy the current read-only source.
 OBS uses `/overlay#room=<copied capability>`; keep the fragment private and omit preview mode.

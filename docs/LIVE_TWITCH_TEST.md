@@ -68,3 +68,9 @@ Invalid/expired/revoked credentials, directed EventSub migration, same-ID redeli
 Use [LIVE_RELEASE_RUNBOOK](LIVE_RELEASE_RUNBOOK.md) for multi-account/native OBS procedures.
 The app secret was shared in conversation: recommend private owner rotation before publication, updating only the ignored `.env`.
 No secret value is repeated here; no rotation/revocation or external publication occurred.
+
+## Public source follow-up
+
+Public source/README are now available and anonymously clone-verified; see [publication evidence](qa/final-release/publication.json).
+This action does not add post-secret-rotation or multi-account live proof. The actual principal Codex identifier is retained privately for Devpost.
+The owner selected macOS/Recordly browser recording because OBS is absent; native browser result footage is not native OBS or a completed final demo.

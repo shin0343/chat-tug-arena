@@ -13,7 +13,7 @@
   "identitySource": "DESIGN.md and apps/web/src/app/tokens.css",
   "script": "docs/DEMO_SCRIPT.md",
   "captionDraft": "docs/demo/captions-draft.srt",
-  "verifiedRepositoryUrl": null,
+  "verifiedRepositoryUrl": "https://github.com/shin0343/twitch-codex-plugin-hackaton",
   "principalCodexSessionId": null,
   "verifiedPublicYouTubeUrl": null,
   "segments": [
@@ -99,5 +99,6 @@
     "externalPublishAuthorized": false,
     "devpostSubmittedObserved": false
   },
-  "principalCodexSessionIdStoredPrivately": true
+  "principalCodexSessionIdStoredPrivately": true,
+  "sourceRepositoryPublicationAuthorized": true
 }

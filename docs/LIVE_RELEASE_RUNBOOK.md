@@ -152,33 +152,31 @@ Never substitute EventSub session ID, app cookie, overlay key or a helper thread
 
 ## 7. Repository and judging
 
-Local main was initialized in Phase9v2 after discovering no prior Git metadata/remote. Private-value candidate scans were clean.
-The source-only snapshot passed npm ci/check and all147/50 on isolated3100/3101, without env/vault.
-[Verification scope](qa/phase9/clean-install.json) records108 matching source/test files, shared host/cache and shutdown of only the temporary servers.
-Release source commit **`80ff3dc`** is now local on main. Its actual committed history and public static files had0 known-private-value matches.
-The final documentation attestation follows that source snapshot; inspect `git log` for the current head. No history was backdated/fabricated and no actual remote URL is configured.
+The owner explicitly authorized public GitHub publication. The source is now [https://github.com/shin0343/twitch-codex-plugin-hackaton](https://github.com/shin0343/twitch-codex-plugin-hackaton) on main.
+Unauthenticated page/README access and a complete credential-free clone passed; [publication evidence](qa/final-release/publication.json) records the verified source revision.
+The source-only install/check previously passed147/50. Fresh lint/build passed and107 production/test/config files matched that tested source.
+
+The earlier local-only commits were retained in an ignored private bundle. Public main starts from a sanitized source snapshot;
+actual app credentials, the principal Codex identifier, env/vault and raw recordings are absent from public files and public history.
+No source history was backdated or fabricated. Use the maintainer's private handoff for the required Devpost session field.
 
 ```bash
-git status --short
-git log -1 --oneline
-git remote -v
+git clone https://github.com/shin0343/twitch-codex-plugin-hackaton.git
+cd twitch-codex-plugin-hackaton
+npm ci
+cp -n .env.example .env
+chmod 600 .env
+npm run dev
 ```
 
-Only after separate publication/push authorization, use the owner's actual repository URL:
-
-```bash
-read -r CTA_RELEASE_REPO_URL
-git remote add origin "$CTA_RELEASE_REPO_URL"
-git push --set-upstream origin main
-```
-
-No guessed URL, visibility change or push is authorized here. Verify judge access signed out; private GitHub/GitLab needs the official judging access.
-Source/assets/notices/instructions must remain available through judging. Project license selection remains an owner decision; fonts retain OFL notices.
+The existing checkout already has origin and main tracking configured. Source/assets/notices/instructions must remain accessible through judging.
+The project-wide open-source license remains unchosen; font licenses and existing rights are preserved.
+Public source access does not authorize video upload or Devpost submission, and it does not imply a deployed application.
 
 ## 8. Submission gate
 
-English draft and actual session ID exist. Actual judge repository URL, final public YouTube, final Codex/OBS/multi-account takes
-and Devpost Submitted status do not. Obtain separate upload/submission authorization and verify actual external outcomes.
+English draft and actual session ID exist. The actual judge repository URL is verified. Final YouTube and actual Codex/live production takes
+and Devpost Submitted status remain missing. Obtain separate upload/submission authorization and verify actual external outcomes.
 Rechecked [official rules](https://twitchcon-codex.devpost.com/rules) and [resources](https://twitchcon-codex.devpost.com/resources).
 Deadline: **2026-11-02 14:00 America/Los_Angeles / PST,22:00 UTC**.
 Do not modify submitted materials after the deadline.

@@ -25,7 +25,7 @@ Use [the existing updated audit](FINAL_SUBMISSION_AUDIT.md) and [runbook](LIVE_R
 
 - [x] **Basic real Twitch:** actual broadcaster, real messages, both directions/results, decay, team locking, acknowledgment and rematch verified.
 - [ ] **Live multi-account gate:** genuine unique-viewer combo/comeback; live cooldown/diminishing and additional provider lifecycle cases remain unverified.
-- [ ] **P0 BLOCKED — Judge access:** accessible runnable repository URL and permitted testing access verified from a fresh viewer/judge context.
+- [x] **Judge source access:** public GitHub page/README and complete clone passed without authentication; see [publication evidence](qa/final-release/publication.json). No hosted app is claimed.
 - [x] **Codex principal ID:** recovered and verified against native runtime/root-thread metadata; actual Codex-use footage remains open.
 - [ ] **P0 BLOCKED — Submission provenance:** entrant confirms new work in the submission window; the new local Git snapshot does not retroactively prove earlier creation history.
 - [ ] **P1 BLOCKED — Native OBS:** browser source transparency, margins, 1920/1280 scaling, live responsiveness, refresh and result verified in real OBS/CEF.

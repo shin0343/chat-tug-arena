@@ -532,3 +532,14 @@ Created the explicitly authorized local release source commit `80ff3dc` on main 
 Actual first-commit history scan inspected665 unique blobs, with0 known app/token/CSRF-secret matches; staged/private paths and45 public static files were also clean.
 No remote exists and no Git push, visibility change, video upload or Devpost submission occurred.
 The following documentation-only attestation records these performed actions; it does not fabricate earlier provenance or clear external blockers.
+
+## Owner-authorized public source release — 2026-10-28 Pacific Time
+
+Published [https://github.com/shin0343/twitch-codex-plugin-hackaton](https://github.com/shin0343/twitch-codex-plugin-hackaton) after the owner explicitly requested a public repository.
+Rewrote README in English around the streamer workflow, implemented differences, equally weighted judging criteria, Codex contributions, real evidence and reproducible credential-free/live setup.
+Independent documentation review found0 blocking issues; corrected one stale Twitch verification sentence. Fresh lint and isolated production build passed;107 production/test/config files matched the previously clean-tested source. Fresh147-test and seven seeded-scenario results are retained separately.
+Known Client ID/Secret, vault key, access/refresh/CSRF and private Codex identifier values were compared in memory against staged source/static files and the public snapshot, with0 matches.
+Retained the actual principal Codex ID/native proof and the complete earlier local Git history in ignored private handoff/bundle files. Public main starts from a sanitized source snapshot using the GitHub noreply author; no older private history was pushed or backdated.
+The first HTTPS push failed HTTP400 and the remote was confirmed empty. A per-command HTTP/1.1/postBuffer retry succeeded; no TLS/security or global Git settings were weakened.
+Anonymous GitHub page/README returned200, .env returned404, and a fresh clone with credential helpers and global/system Git configuration disabled succeeded. All required source/assets/notices were present.
+Source commit `cbb9346` was verified; [publication evidence](qa/final-release/publication.json) records the exact scope. Public source access does not complete the demo, YouTube or Devpost gates.

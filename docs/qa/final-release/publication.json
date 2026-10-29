@@ -1,0 +1,33 @@
+{
+  "capturedAt": "2026-10-29T00:45:54.808Z",
+  "status": "PASS",
+  "repositoryUrl": "https://github.com/shin0343/twitch-codex-plugin-hackaton",
+  "visibility": "PUBLIC",
+  "defaultBranch": "main",
+  "verifiedSourceCommit": "cbb934630b3d7342993bd56d248da7a50a106bce",
+  "anonymousAccess": {
+    "repositoryHTTP": 200,
+    "pageHTTP": 200,
+    "readmeHTTP": 200,
+    "privateEnvHTTP": 404,
+    "authorizationHeaderUsed": false,
+    "readmeMatchesReviewedBytes": true
+  },
+  "sourceClone": {
+    "status": "PASS",
+    "credentialHelperDisabled": true,
+    "globalAndSystemGitConfigurationDisabled": true,
+    "files": 721,
+    "commits": 1,
+    "requiredCodeAssetsAndNoticesPresent": true,
+    "blankPublicCredentialDefaults": true
+  },
+  "privacy": {
+    "knownPrivateValueMatches": [],
+    "forbiddenPaths": [],
+    "credentialFormatFindings": [],
+    "principalCodexIdentifierPublic": false,
+    "originalPrivateHistoryPublic": false
+  },
+  "scope": "Public GitHub source and README verified; no hosted app, YouTube upload or Devpost submission is implied"
+}

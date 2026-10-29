@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-10-28T20:17:41.746Z",
+  "capturedAt": "2026-10-29T00:47:41.648Z",
   "releaseStatus": "BLOCKED",
   "submitted": false,
   "featureFreeze": true,
@@ -24,15 +24,17 @@
   "principalCodexSessionId": {
     "status": "PASS",
     "value": null,
-    "source": "Matching current runtime and native root-thread metadata; no /status UI recording"
+    "source": "Matching current runtime and native root-thread metadata; no /status UI recording",
+    "publicValueWithheld": true
   },
   "repository": {
-    "localInitialized": true,
     "branch": "main",
-    "localCommit": "PASS",
-    "sourceCommit": "80ff3dc4553d42452adfca6744abfe7cf7b6a039",
-    "remoteConfigured": false,
-    "judgeAccess": "BLOCKED"
+    "publicSourceCommit": "cbb934630b3d7342993bd56d248da7a50a106bce",
+    "url": "https://github.com/shin0343/twitch-codex-plugin-hackaton",
+    "visibility": "PUBLIC",
+    "anonymousAccess": "PASS",
+    "sourceClone": "PASS",
+    "privateHistoryPublished": false
   },
   "authenticRawBrowserTake": {
     "status": "PASS",
@@ -75,10 +77,12 @@
     "Initialized local main",
     "Staged reviewed source/assets/documentation",
     "Created local release source commit 80ff3dc",
-    "Scanned actual committed history without secret matches"
+    "Scanned actual committed history without secret matches",
+    "Preserved prior local history in an ignored private bundle; created sanitized public main snapshot"
   ],
   "externalWrites": [
-    "Authorized genuine Twitch test chat messages; no Git push, visibility change, video upload or Devpost submission"
+    "Authorized genuine Twitch test chat messages; no Git push, visibility change, video upload or Devpost submission",
+    "Owner-authorized public GitHub creation and main push; verified anonymous source access"
   ],
   "requiredNextAction": "Native OBS and genuine multi-account verification, final Codex/live footage and human narration, owner license/rotation decisions, then explicitly authorized judge repository/video/submission actions."
 }

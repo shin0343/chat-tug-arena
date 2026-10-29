@@ -7,5 +7,18 @@
   "privateIdentifiers": "Actual Codex session identifier retained in ignored private handoff; public metadata contains no identifier value",
   "priorLocalHistory": "Complete verified bundle retained privately before public snapshot; no earlier history is fabricated",
   "secretValuesPrinted": false,
-  "publicationStatus": "AWAITING_PUSH_VERIFICATION"
+  "publicationStatus": "PASS_ANONYMOUS_SOURCE_ACCESS",
+  "repositoryUrl": "https://github.com/shin0343/twitch-codex-plugin-hackaton",
+  "freshLint": "PASS",
+  "freshIsolatedProductionBuild": "PASS",
+  "productionAndTestFilesMatched": 107,
+  "newUnitRun": {
+    "passed": 147,
+    "files": 13,
+    "durationSeconds": 4.68
+  },
+  "priorFullProductionBrowserSuite": {
+    "passed": 50,
+    "scope": "Preserved source-only verification; no runtime code changed during publication"
+  }
 }

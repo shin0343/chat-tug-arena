@@ -1,10 +1,10 @@
 {
-  "capturedAt": "2026-10-29T00:39:56.153Z",
+  "capturedAt": "2026-10-29T00:49:31.700Z",
   "localArtifactValidation": "PASS",
   "submissionReadiness": "BLOCKED",
   "requiredArtifacts": 12,
   "markdownFilesChecked": 33,
-  "localLinksChecked": 274,
+  "localLinksChecked": 280,
   "missing": [],
   "timeline": {
     "segments": 8,
@@ -38,7 +38,7 @@
     "package-lock.json": "609506f674ff5482609c1e1ae5880d71f97cbd1ae47a4b7e66be43c5b573a716",
     "DESIGN.md": "593b400c0738783649f15f52ced4588d2aeb38a1ae7055793491eca524e2ac88"
   },
-  "actualRepositoryUrl": null,
+  "actualRepositoryUrl": "https://github.com/shin0343/twitch-codex-plugin-hackaton",
   "principalCodexSessionId": null,
   "actualFinalVideoPath": null,
   "publicYouTubeUrl": null,
