@@ -4,7 +4,11 @@
 
 Chat Tug Arena is an interactive tug-of-war for a streamer's next decision. Set two choices, let viewers pull with chat commands, then commit to the winning action. Participation builds force, the rope carries momentum, and coordinated crews can turn a round around.
 
-Built with **OpenAI Codex** for the [Codex x TwitchCon Hackathon](https://twitchcon-codex.devpost.com/). The implementation, instructions and verification records are included here; the final demo video and Devpost submission remain in preparation.
+Built with **OpenAI Codex** for the [Codex x TwitchCon Hackathon](https://twitchcon-codex.devpost.com/). The implementation, setup instructions and verification records are included here.
+
+## Demo
+
+**[Watch the Chat Tug Arena demo on YouTube](https://youtu.be/jrdV6V3SlXM)**
 
 ![Original Fieldday crew and winning consequence — labeled local rehearsal](docs/qa/phase7/regression/result-overlay-1920.png)
 
@@ -176,7 +180,7 @@ The [official rules](https://twitchcon-codex.devpost.com/rules) weight four crit
 | Technological Implementation | Real one-account Twitch evidence, server authority, deterministic scenarios, bounded transport and reproduced security/reliability regressions |
 | Design | One original character family, coherent typography and crew colors, accessible controls, purposeful reactions and a scalable read-only scene |
 
-This source repository is one submission component. The final public YouTube demo, actual Codex-use footage, entrant declarations and observed Devpost **Submitted** status remain separate requirements. No finalist probability or completed submission is claimed.
+The source and [demo video](https://youtu.be/jrdV6V3SlXM) are available. Entrant declarations, required Codex session details and final Devpost submission are handled separately. Publishing the source and linking a video do not confirm Devpost **Submitted** status. No finalist probability is claimed.
 
 ## Run the checks
 
