@@ -8,6 +8,8 @@ Built with **OpenAI Codex** for the [Codex x TwitchCon Hackathon](https://twitch
 
 ## Demo
 
+[![Play the Chat Tug Arena demo](https://img.youtube.com/vi/jrdV6V3SlXM/maxresdefault.jpg)](https://youtu.be/jrdV6V3SlXM "Watch the Chat Tug Arena demo on YouTube")
+
 **[Watch the Chat Tug Arena demo on YouTube](https://youtu.be/jrdV6V3SlXM)**
 
 ![Original Fieldday crew and winning consequence — labeled local rehearsal](docs/qa/phase7/regression/result-overlay-1920.png)
